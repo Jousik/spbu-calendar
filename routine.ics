@@ -315,4 +315,326 @@ DESCRIPTION:🍱 Заготовка еды
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261106-0800@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261106T080000
+DTEND;TZID=Europe/Moscow:20261106T084500
+SUMMARY:▶️ Как сейчас вести пробный урок\, чтобы выбрали вас
+URL:https://www.youtube.com/watch?v=dUT6eYNtM1A
+DESCRIPTION:https://www.youtube.com/watch?v=dUT6eYNtM1A
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как сейчас вести пробный урок\, чтобы выбрали вас
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261106-1745@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261106T174500
+DTEND;TZID=Europe/Moscow:20261106T183000
+SUMMARY:▶️ Как наладить режим сна: 3 стратегии от сомнолога
+URL:https://www.youtube.com/watch?v=uW_CzyQwhv4
+DESCRIPTION:https://www.youtube.com/watch?v=uW_CzyQwhv4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как наладить режим сна: 3 стратегии от сомнолога
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261106-2110@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261106T211000
+DTEND;TZID=Europe/Moscow:20261106T215000
+SUMMARY:▶️ Как репетитору научиться продавать свои услуги
+URL:https://www.youtube.com/watch?v=2LgJjfaUmf0
+DESCRIPTION:https://www.youtube.com/watch?v=2LgJjfaUmf0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору научиться продавать свои услуги
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261107-2050@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261107T205000
+DTEND;TZID=Europe/Moscow:20261107T214000
+SUMMARY:▶️ Как копить деньги при маленькой зарплате
+URL:https://www.youtube.com/watch?v=QYhYiSJr2zI
+DESCRIPTION:https://www.youtube.com/watch?v=QYhYiSJr2zI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как копить деньги при маленькой зарплате
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261108-0800@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261108T080000
+DTEND;TZID=Europe/Moscow:20261108T084500
+SUMMARY:▶️ Хочешь больше мышц? Белок по науке
+URL:https://www.youtube.com/watch?v=TyNvPdHQz7w
+DESCRIPTION:https://www.youtube.com/watch?v=TyNvPdHQz7w
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Хочешь больше мышц? Белок по науке
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261108-0945@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261108T094500
+DTEND;TZID=Europe/Moscow:20261108T103000
+SUMMARY:▶️ Делегирование: как нанять и масштабировать бизнес
+URL:https://www.youtube.com/watch?v=GKDNmXttqmc
+DESCRIPTION:https://www.youtube.com/watch?v=GKDNmXttqmc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Делегирование: как нанять и масштабировать бизнес
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261108-1630@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261108T163000
+DTEND;TZID=Europe/Moscow:20261108T171500
+SUMMARY:▶️ Проник на пробные уроки к другим репетиторам — что выяснил
+URL:https://www.youtube.com/watch?v=7zPnzRHKJZ8
+DESCRIPTION:https://www.youtube.com/watch?v=7zPnzRHKJZ8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Проник на пробные уроки к другим репетиторам — что выяснил
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261108-1930@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261108T193000
+DTEND;TZID=Europe/Moscow:20261108T201500
+SUMMARY:▶️ Разбор техники: присед\, становая\, жим
+URL:https://www.youtube.com/watch?v=BBbPKb52FU8
+DESCRIPTION:https://www.youtube.com/watch?v=BBbPKb52FU8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Разбор техники: присед\, становая\, жим
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261109-0745@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261109T074500
+DTEND;TZID=Europe/Moscow:20261109T083000
+SUMMARY:▶️ Как самозанятому принимать оплату онлайн
+URL:https://www.youtube.com/watch?v=KyOnOpl5yUM
+DESCRIPTION:https://www.youtube.com/watch?v=KyOnOpl5yUM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как самозанятому принимать оплату онлайн
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261109-1745@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261109T174500
+DTEND;TZID=Europe/Moscow:20261109T183000
+SUMMARY:▶️ 4 источника учеников для репетитора
+URL:https://www.youtube.com/watch?v=26tuGLNnZ04
+DESCRIPTION:https://www.youtube.com/watch?v=26tuGLNnZ04
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 4 источника учеников для репетитора
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261110-0800@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261110T080000
+DTEND;TZID=Europe/Moscow:20261110T084500
+SUMMARY:▶️ 9 техник\, как копить\, + первые инвестиции
+URL:https://www.youtube.com/watch?v=wO_91_g3gv8
+DESCRIPTION:https://www.youtube.com/watch?v=wO_91_g3gv8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 9 техник\, как копить\, + первые инвестиции
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261110-1000@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261110T100000
+DTEND;TZID=Europe/Moscow:20261110T104500
+SUMMARY:▶️ Продвижение ВКонтакте: видео\, клипы и посты — что работает
+URL:https://www.youtube.com/watch?v=OkD3Xz07qco
+DESCRIPTION:https://www.youtube.com/watch?v=OkD3Xz07qco
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Продвижение ВКонтакте: видео\, клипы и посты — что работает
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261111-0740@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261111T074000
+DTEND;TZID=Europe/Moscow:20261111T081500
+SUMMARY:▶️ Как репетитору продавать обучение через Telegram
+URL:https://www.youtube.com/watch?v=05Wz3wGLKfE
+DESCRIPTION:https://www.youtube.com/watch?v=05Wz3wGLKfE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору продавать обучение через Telegram
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261111-1730@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261111T173000
+DTEND;TZID=Europe/Moscow:20261111T181500
+SUMMARY:▶️ Топ-5 ошибок в жиме лёжа от чемпиона мира
+URL:https://www.youtube.com/watch?v=EjjFxnwVGSM
+DESCRIPTION:https://www.youtube.com/watch?v=EjjFxnwVGSM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Топ-5 ошибок в жиме лёжа от чемпиона мира
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261112-0800@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261112T080000
+DTEND;TZID=Europe/Moscow:20261112T084500
+SUMMARY:▶️ Как наладить сон: сомнолог Роман Бузунов
+URL:https://www.youtube.com/watch?v=DZo-j5O0VnY
+DESCRIPTION:https://www.youtube.com/watch?v=DZo-j5O0VnY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как наладить сон: сомнолог Роман Бузунов
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261112-0930@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261112T093000
+DTEND;TZID=Europe/Moscow:20261112T101500
+SUMMARY:▶️ Самозанятость: за и против\, нюансы
+URL:https://www.youtube.com/watch?v=JV2ws9U3GGA
+DESCRIPTION:https://www.youtube.com/watch?v=JV2ws9U3GGA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Самозанятость: за и против\, нюансы
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261112-1715@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261112T171500
+DTEND;TZID=Europe/Moscow:20261112T180000
+SUMMARY:▶️ Делегирование — способ больше зарабатывать и иметь время
+URL:https://www.youtube.com/watch?v=fv3a-EnjN_E
+DESCRIPTION:https://www.youtube.com/watch?v=fv3a-EnjN_E
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Делегирование — способ больше зарабатывать и иметь время
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261112-1945@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261112T194500
+DTEND;TZID=Europe/Moscow:20261112T203000
+SUMMARY:▶️ Всё про белок и протеин: сколько и какой
+URL:https://www.youtube.com/watch?v=h44_MVC1dhU
+DESCRIPTION:https://www.youtube.com/watch?v=h44_MVC1dhU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Всё про белок и протеин: сколько и какой
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261113-0800@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261113T080000
+DTEND;TZID=Europe/Moscow:20261113T084500
+SUMMARY:▶️ Продвижение в VK Видео: как набрать просмотры
+URL:https://www.youtube.com/watch?v=Yajf8MbGlrk
+DESCRIPTION:https://www.youtube.com/watch?v=Yajf8MbGlrk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Продвижение в VK Видео: как набрать просмотры
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261113-1745@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261113T174500
+DTEND;TZID=Europe/Moscow:20261113T183000
+SUMMARY:▶️ Правило 50/30/20 не работает: как копить
+URL:https://www.youtube.com/watch?v=kj7tM9RTA38
+DESCRIPTION:https://www.youtube.com/watch?v=kj7tM9RTA38
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Правило 50/30/20 не работает: как копить
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261115-0800@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261115T080000
+DTEND;TZID=Europe/Moscow:20261115T084500
+SUMMARY:▶️ Всё\, что нужно знать про тайм-менеджмент
+URL:https://www.youtube.com/watch?v=kRib6SUGIrA
+DESCRIPTION:https://www.youtube.com/watch?v=kRib6SUGIrA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Всё\, что нужно знать про тайм-менеджмент
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261115-0945@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261115T094500
+DTEND;TZID=Europe/Moscow:20261115T103000
+SUMMARY:▶️ Как репетитору искать учеников через Профи.ру
+URL:https://www.youtube.com/watch?v=UrQ3fC7k3mM
+DESCRIPTION:https://www.youtube.com/watch?v=UrQ3fC7k3mM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору искать учеников через Профи.ру
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt3-20261115-1630@spbu-25b05
+DTSTAMP:20261105T181500Z
+DTSTART;TZID=Europe/Moscow:20261115T163000
+DTEND;TZID=Europe/Moscow:20261115T171500
+SUMMARY:▶️ Франшиза с нуля: 7 шагов масштабирования
+URL:https://www.youtube.com/watch?v=TXaA88c_Pbw
+DESCRIPTION:https://www.youtube.com/watch?v=TXaA88c_Pbw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Франшиза с нуля: 7 шагов масштабирования
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
 END:VCALENDAR
