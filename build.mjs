@@ -1,5 +1,5 @@
 // Генерирует spbu.ics из расписания СПбГУ для группы 25.Б05-э
-import { writeFileSync } from "node:fs";
+import { writeFileSync, readFileSync } from "node:fs";
 
 const GROUP = 475000; // 25.Б05-э
 const EXCLUDE = [/Факультатив/i, /Русский язык как иностранный/i, /Траектория 2/i, /Траектория 4/i];
@@ -70,3 +70,26 @@ writeFileSync("spbu.ics", lines.join("\r\n") + "\r\n");
 const gymHeader = header.map(l => l.startsWith("X-WR-CALNAME") ? "X-WR-CALNAME:Зал" : l);
 writeFileSync("gym.ics", [...gymHeader, ...gymLines, "END:VCALENDAR"].join("\r\n") + "\r\n");
 console.log(`OK: ${seen.size} занятий`);
+
+// --- Вечерняя прогулка 22:00–22:20 только в дни без снега и сильных осадков (прогноз Open-Meteo, СПб) ---
+try {
+  const url = "https://api.open-meteo.com/v1/forecast?latitude=59.94&longitude=30.31&daily=precipitation_sum,snowfall_sum,temperature_2m_min&timezone=Europe%2FMoscow&forecast_days=16";
+  const w = process.env.WEATHER_JSON ? JSON.parse(process.env.WEATHER_JSON) : await (await fetch(url)).json();
+  const { time, precipitation_sum: pr, snowfall_sum: sn, temperature_2m_min: tmin } = w.daily;
+  const walks = [];
+  time.forEach((d, i) => {
+    const ok = sn[i] === 0 && pr[i] < 2 && tmin[i] > -3; // без снега, без дождя/слякоти, без гололёда
+    if (!ok) return;
+    const ymd = d.replace(/-/g, "");
+    walks.push("BEGIN:VEVENT", `UID:walk-${ymd}@spbu-25b05`, `DTSTAMP:${stamp}`,
+      `DTSTART;TZID=Europe/Moscow:${ymd}T220000`, `DTEND;TZID=Europe/Moscow:${ymd}T222000`,
+      "SUMMARY:🚶 Вечерняя прогулка 20 минут", "TRANSP:TRANSPARENT",
+      fold(`DESCRIPTION:По прогнозу сухо: осадки ${pr[i]} мм\\, минимум ${tmin[i]} °C.`),
+      "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Прогулка 20 минут", "TRIGGER:PT0M", "END:VALARM", "END:VEVENT");
+  });
+  let r = readFileSync("routine.ics", "utf8");
+  r = r.replace(/BEGIN:VEVENT\r\nUID:walk-[\s\S]*?END:VEVENT\r\n/g, "");
+  r = r.replace("END:VCALENDAR\r\n", walks.join("\r\n") + (walks.length ? "\r\n" : "") + "END:VCALENDAR\r\n");
+  writeFileSync("routine.ics", r);
+  console.log(`Прогулки: ${walks.length / 14} дней`);
+} catch (e) { console.log("Погода недоступна, прогулки не обновлены:", e.message); }
