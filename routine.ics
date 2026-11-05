@@ -22,3 +22,62 @@ DESCRIPTION:📵 Телефон на зарядку не у кровати
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:learn-stepik-tutor@spbu-25b05
+DTSTAMP:20261105T173000Z
+DTSTART;TZID=Europe/Moscow:20261108T170000
+DTEND;TZID=Europe/Moscow:20261108T190000
+RRULE:FREQ=WEEKLY;BYDAY=SU;COUNT=3
+SUMMARY:📚 Курс: 4 шага к успешному репетиторству
+URL:https://stepik.org/course/247899
+DESCRIPTION:https://stepik.org/course/247899\nБесплатный курс на Stepik\, 12 уроков — примерно по 4 урока за вечер.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 Курс: 4 шага к успешному репетиторству
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:learn-stepik-paid@spbu-25b05
+DTSTAMP:20261105T173000Z
+DTSTART;TZID=Europe/Moscow:20261129T170000
+DTEND;TZID=Europe/Moscow:20261129T190000
+RRULE:FREQ=WEEKLY;BYDAY=SU;COUNT=3
+SUMMARY:📚 Курс: создание платного курса на Stepik
+URL:https://stepik.org/course/1000/promo
+DESCRIPTION:https://stepik.org/course/1000/promo\nКак собрать и продавать свой курс — под идею мини-курса по ЕГЭ.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 Курс: создание платного курса на Stepik
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:learn-article-business@spbu-25b05
+DTSTAMP:20261105T173000Z
+DTSTART;TZID=Europe/Moscow:20261109T210000
+DTEND;TZID=Europe/Moscow:20261109T212000
+SUMMARY:📖 Статья: как репетитору вырасти в предпринимателя
+URL:https://repetit.ru/blog/articles/kak-repetitoru-vyrasti-v-predprinimatelya%C2%A0/
+DESCRIPTION:https://repetit.ru/blog/articles/kak-repetitoru-vyrasti-v-predprinimatelya%C2%A0/\nПуть: цена → группы → свои курсы.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📖 Статья: как репетитору вырасти в предпринимателя
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:learn-article-price@spbu-25b05
+DTSTAMP:20261105T173000Z
+DTSTART;TZID=Europe/Moscow:20261113T210000
+DTEND;TZID=Europe/Moscow:20261113T212000
+SUMMARY:📖 Статья: как репетитору поднять цену
+URL:https://t-j.ru/career-question-kak-repetitoru-podniat-tsenu/
+DESCRIPTION:https://t-j.ru/career-question-kak-repetitoru-podniat-tsenu/\nКогда и как повышать цену.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📖 Статья: как репетитору поднять цену
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
