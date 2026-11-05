@@ -43,6 +43,8 @@ for (const e of events) {
     fold(`DESCRIPTION:${esc([e.EducatorsDisplayText, flags.join(", ")].filter(Boolean).join("\n"))}`),
     `TRANSP:${e.IsCancelled ? "TRANSPARENT" : "OPAQUE"}`, "END:VEVENT");
 }
+const studyCount = lines.length;
+const header = lines.slice(0, 9);
 // --- Зал: 4 тренировки по 2 часа; если накладывается на пару — пропускаем ---
 const GYM = { 2: ["14:00", "Зал — верх"], 3: ["14:00", "Зал — низ"], 6: ["09:00", "Зал — верх"], 0: ["12:00", "Зал — низ"] };
 const GYM_EXTRA = [["2026-11-13", "15:45", "Зал — низ (перенос со среды)"], ["2026-12-01", "09:00", "Зал — верх (утром, до пар)"], ["2026-11-28", "08:30", "Зал — верх (раньше: пары с 11:30)"], ["2026-12-12", "08:30", "Зал — верх (раньше: пары с 11:30)"]];
@@ -61,6 +63,9 @@ for (let d = new Date(Math.max(monday, new Date("2026-11-06"))); d < end; d.setD
 }
 for (const [date, time, title] of GYM_EXTRA) gymEvent(date, time, title);
 
+const gymLines = lines.splice(studyCount);
 lines.push("END:VCALENDAR");
 writeFileSync("spbu.ics", lines.join("\r\n") + "\r\n");
+const gymHeader = header.map(l => l.startsWith("X-WR-CALNAME") ? "X-WR-CALNAME:Зал" : l);
+writeFileSync("gym.ics", [...gymHeader, ...gymLines, "END:VCALENDAR"].join("\r\n") + "\r\n");
 console.log(`OK: ${seen.size} занятий`);
