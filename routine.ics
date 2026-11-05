@@ -22,19 +22,3 @@ DESCRIPTION:📵 Телефон на зарядку не у кровати
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
-BEGIN:VEVENT
-UID:routine-review@spbu-25b05
-DTSTAMP:20261105T130000Z
-DTSTART;TZID=Europe/Moscow:20261108T210000
-DTEND;TZID=Europe/Moscow:20261108T211500
-RRULE:FREQ=WEEKLY;BYDAY=SU
-SUMMARY:✅ Итоги недели (10 минут)
-DESCRIPTION:Посчитай галочки за неделю: сон до 23:00\, зал\, белок в каждом приёме еды. Не пропускай одно и то же два дня подряд.
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:✅ Итоги недели (10 минут)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-END:VCALENDAR
