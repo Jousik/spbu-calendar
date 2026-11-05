@@ -14,6 +14,8 @@ jobs:
         with:
           node-version: 22
       - run: node build.mjs
+        env:
+          TZ: Europe/Moscow
       - run: |
           git config user.name "calendar-bot"
           git config user.email "calendar-bot@users.noreply.github.com"

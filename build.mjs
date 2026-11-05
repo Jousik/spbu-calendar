@@ -43,6 +43,23 @@ for (const e of events) {
     fold(`DESCRIPTION:${esc([e.EducatorsDisplayText, flags.join(", ")].filter(Boolean).join("\n"))}`),
     `TRANSP:${e.IsCancelled ? "TRANSPARENT" : "OPAQUE"}`, "END:VEVENT");
 }
+// --- Зал: 4 тренировки по 2 часа; если накладывается на пару — пропускаем ---
+const GYM = { 2: ["14:00", "Зал — верх"], 3: ["14:00", "Зал — низ"], 6: ["09:00", "Зал — верх"], 0: ["12:00", "Зал — низ"] };
+const GYM_EXTRA = [["2026-11-13", "15:00", "Зал — низ (перенос со среды)"], ["2026-12-04", "16:45", "Зал — верх (перенос со вторника)"]];
+const busy = events.filter(e => !e.IsCancelled && !/пересдача|показ работ/i.test(e.Subject)).map(e => [new Date(e.Start), new Date(e.End)]);
+const gymEvent = (date, time, title) => {
+  const s = new Date(`${date}T${time}:00`), en = new Date(s.getTime() + 2 * 3600e3);
+  if (busy.some(([a, b]) => a < en && b > s)) return;
+  const f = x => `${iso(x).replace(/-/g, "")}T${pad(x.getHours())}${pad(x.getMinutes())}00`;
+  lines.push("BEGIN:VEVENT", `UID:gym-${date}@spbu-25b05`, `DTSTAMP:${stamp}`,
+    `DTSTART;TZID=Europe/Moscow:${f(s)}`, `DTEND;TZID=Europe/Moscow:${f(en)}`,
+    fold(`SUMMARY:🏋️ ${esc(title)}`), "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Зал через час", "TRIGGER:-PT1H", "END:VALARM", "END:VEVENT");
+};
+for (let d = new Date(Math.max(monday, new Date("2026-11-06"))); d < end; d.setDate(d.getDate() + 1)) {
+  const g = GYM[d.getDay()]; if (g) gymEvent(iso(d), g[0], g[1]);
+}
+for (const [date, time, title] of GYM_EXTRA) gymEvent(date, time, title);
+
 lines.push("END:VCALENDAR");
 writeFileSync("spbu.ics", lines.join("\r\n") + "\r\n");
 console.log(`OK: ${seen.size} занятий`);
