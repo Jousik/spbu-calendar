@@ -2,7 +2,7 @@
 import { writeFileSync } from "node:fs";
 
 const GROUP = 475000; // 25.Б05-э
-const EXCLUDE = [/Русский язык как иностранный/i, /Траектория 2/i, /Траектория 4/i];
+const EXCLUDE = [/Факультатив/i, /Русский язык как иностранный/i, /Траектория 2/i, /Траектория 4/i];
 const WEEKS_BACK = 2, WEEKS_AHEAD = 20;
 
 const pad = n => String(n).padStart(2, "0");
