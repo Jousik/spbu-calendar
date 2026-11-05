@@ -45,11 +45,12 @@ for (const e of events) {
 }
 // --- Зал: 4 тренировки по 2 часа; если накладывается на пару — пропускаем ---
 const GYM = { 2: ["14:00", "Зал — верх"], 3: ["14:00", "Зал — низ"], 6: ["09:00", "Зал — верх"], 0: ["12:00", "Зал — низ"] };
-const GYM_EXTRA = [["2026-11-13", "15:00", "Зал — низ (перенос со среды)"], ["2026-12-04", "16:45", "Зал — верх (перенос со вторника)"]];
+const GYM_EXTRA = [["2026-11-13", "15:45", "Зал — низ (перенос со среды)"], ["2026-12-01", "09:00", "Зал — верх (утром, до пар)"], ["2026-11-28", "08:30", "Зал — верх (раньше: пары с 11:30)"], ["2026-12-12", "08:30", "Зал — верх (раньше: пары с 11:30)"]];
+const ROAD_BEFORE = 50, ROAD_AFTER = 40; // минут на дорогу до зала и от зала до учёбы
 const busy = events.filter(e => !e.IsCancelled && !/пересдача|показ работ/i.test(e.Subject)).map(e => [new Date(e.Start), new Date(e.End)]);
 const gymEvent = (date, time, title) => {
   const s = new Date(`${date}T${time}:00`), en = new Date(s.getTime() + 2 * 3600e3);
-  if (busy.some(([a, b]) => a < en && b > s)) return;
+  if (busy.some(([a, b]) => a < new Date(en.getTime() + ROAD_AFTER * 60e3) && b > new Date(s.getTime() - ROAD_BEFORE * 60e3))) return;
   const f = x => `${iso(x).replace(/-/g, "")}T${pad(x.getHours())}${pad(x.getMinutes())}00`;
   lines.push("BEGIN:VEVENT", `UID:gym-${date}@spbu-25b05`, `DTSTAMP:${stamp}`,
     `DTSTART;TZID=Europe/Moscow:${f(s)}`, `DTEND;TZID=Europe/Moscow:${f(en)}`,
