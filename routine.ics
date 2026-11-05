@@ -134,4 +134,213 @@ DESCRIPTION:▶️ На чём дополнительно заработать �
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:yt2-20261110T203000@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261110T203000
+DTEND;TZID=Europe/Moscow:20261110T210000
+SUMMARY:▶️ Жим штанги лёжа: правильная техника
+URL:https://www.youtube.com/watch?v=nWo_m0REGMA
+DESCRIPTION:https://www.youtube.com/watch?v=nWo_m0REGMA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Жим штанги лёжа: правильная техника
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt2-20261112T213000@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261112T213000
+DTEND;TZID=Europe/Moscow:20261112T220000
+SUMMARY:▶️ Как начать снимать reels и shorts эксперту
+URL:https://www.youtube.com/watch?v=c6aZmCFI42A
+DESCRIPTION:https://www.youtube.com/watch?v=c6aZmCFI42A
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как начать снимать reels и shorts эксперту
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt2-20261114T210000@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261114T210000
+DTEND;TZID=Europe/Moscow:20261114T213000
+SUMMARY:▶️ 7 правил рекомпозиции: жир вниз\, мышцы вверх
+URL:https://www.youtube.com/watch?v=pVu-bbOO1wI
+DESCRIPTION:https://www.youtube.com/watch?v=pVu-bbOO1wI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 7 правил рекомпозиции: жир вниз\, мышцы вверх
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt2-20261115T200000@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261115T200000
+DTEND;TZID=Europe/Moscow:20261115T203000
+SUMMARY:▶️ Как спланировать день и всё успевать
+URL:https://www.youtube.com/watch?v=-Zke9QTzSn0
+DESCRIPTION:https://www.youtube.com/watch?v=-Zke9QTzSn0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как спланировать день и всё успевать
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt2-20261117T203000@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261117T203000
+DTEND;TZID=Europe/Moscow:20261117T210000
+SUMMARY:▶️ Приседание: техника и частые ошибки
+URL:https://www.youtube.com/watch?v=7Yg2YVNdd8c
+DESCRIPTION:https://www.youtube.com/watch?v=7Yg2YVNdd8c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Приседание: техника и частые ошибки
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt2-20261119T213000@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261119T213000
+DTEND;TZID=Europe/Moscow:20261119T220000
+SUMMARY:▶️ Как сделать вирусное видео в VK Клипах
+URL:https://www.youtube.com/watch?v=oZ86lEMzszw
+DESCRIPTION:https://www.youtube.com/watch?v=oZ86lEMzszw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как сделать вирусное видео в VK Клипах
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt2-20261121T210000@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261121T210000
+DTEND;TZID=Europe/Moscow:20261121T213000
+SUMMARY:▶️ Договор репетитора с клиентами
+URL:https://www.youtube.com/watch?v=XpgZzsAlgp4
+DESCRIPTION:https://www.youtube.com/watch?v=XpgZzsAlgp4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Договор репетитора с клиентами
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt2-20261122T200000@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261122T200000
+DTEND;TZID=Europe/Moscow:20261122T203000
+SUMMARY:▶️ Как работает SEO в VK Видео
+URL:https://www.youtube.com/watch?v=YFo2Qxqb1s8
+DESCRIPTION:https://www.youtube.com/watch?v=YFo2Qxqb1s8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как работает SEO в VK Видео
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt2-20261124T203000@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261124T203000
+DTEND;TZID=Europe/Moscow:20261124T210000
+SUMMARY:▶️ Репетитор: самозанятость или ИП
+URL:https://www.youtube.com/watch?v=QYS6RRFo0x8
+DESCRIPTION:https://www.youtube.com/watch?v=QYS6RRFo0x8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Репетитор: самозанятость или ИП
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt2-20261126T213000@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261126T213000
+DTEND;TZID=Europe/Moscow:20261126T220000
+SUMMARY:▶️ 10 секретов тайм-менеджмента для учителей и студентов
+URL:https://www.youtube.com/watch?v=qaxf7cnjKNo
+DESCRIPTION:https://www.youtube.com/watch?v=qaxf7cnjKNo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 10 секретов тайм-менеджмента для учителей и студентов
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:blk-study-mo@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261109T073000
+DTEND;TZID=Europe/Moscow:20261109T091500
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:📚 Учёба: подготовка к сессии
+DESCRIPTION:Конспекты\, задачи по терверу и бухучёту\, долги по дисциплинам.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 Учёба: подготовка к сессии
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:blk-study-fr@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261113T073000
+DTEND;TZID=Europe/Moscow:20261113T094500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:📚 Учёба: подготовка к сессии
+DESCRIPTION:Конспекты\, задачи по терверу и бухучёту\, долги по дисциплинам.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:📚 Учёба: подготовка к сессии
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:blk-video-th@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261112T073000
+DTEND;TZID=Europe/Moscow:20261112T093000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🎬 Снять 2–3 ролика-разбора ЕГЭ
+DESCRIPTION:Короткие разборы задач для VK Клипов / Shorts — приводят учеников.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎬 Снять 2–3 ролика-разбора ЕГЭ
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:blk-product-su@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261108T170000
+DTEND;TZID=Europe/Moscow:20261108T190000
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:💼 Свой мини-курс по ЕГЭ
+DESCRIPTION:Видео + задачи в тренажёре на сайте\, потом продажа.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💼 Свой мини-курс по ЕГЭ
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:blk-pool-th@spbu-25b05
+DTSTAMP:20261105T174500Z
+DTSTART;TZID=Europe/Moscow:20261112T200000
+DTEND;TZID=Europe/Moscow:20261112T211500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:🏊 Бассейн с Ариадной
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏊 Бассейн с Ариадной
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
 END:VCALENDAR
