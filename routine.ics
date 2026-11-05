@@ -80,4 +80,88 @@ DESCRIPTION:📖 Статья: как репетитору поднять цен
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:yt-20261111@spbu-25b05
+DTSTAMP:20261105T173500Z
+DTSTART;TZID=Europe/Moscow:20261111T211000
+DTEND;TZID=Europe/Moscow:20261111T214000
+SUMMARY:▶️ Как найти учеников без Авито и Профи.ру
+URL:https://www.youtube.com/watch?v=DXRJKyujRbQ
+DESCRIPTION:https://www.youtube.com/watch?v=DXRJKyujRbQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как найти учеников без Авито и Профи.ру
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt-20261116@spbu-25b05
+DTSTAMP:20261105T173500Z
+DTSTART;TZID=Europe/Moscow:20261116T211000
+DTEND;TZID=Europe/Moscow:20261116T214000
+SUMMARY:▶️ Где и как найти учеников на 400 000 ₽ в месяц
+URL:https://www.youtube.com/watch?v=N4T_FR-1Bfs
+DESCRIPTION:https://www.youtube.com/watch?v=N4T_FR-1Bfs
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Где и как найти учеников на 400 000 ₽ в месяц
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt-20261118@spbu-25b05
+DTSTAMP:20261105T173500Z
+DTSTART;TZID=Europe/Moscow:20261118T211000
+DTEND;TZID=Europe/Moscow:20261118T214000
+SUMMARY:▶️ Всё о ставке репетитора: какую ставить и как повышать
+URL:https://www.youtube.com/watch?v=S3H3qvkDOiM
+DESCRIPTION:https://www.youtube.com/watch?v=S3H3qvkDOiM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Всё о ставке репетитора: какую ставить и как повышать
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt-20261120@spbu-25b05
+DTSTAMP:20261105T173500Z
+DTSTART;TZID=Europe/Moscow:20261120T211000
+DTEND;TZID=Europe/Moscow:20261120T214000
+SUMMARY:▶️ Как повысить цену и не потерять клиентов
+URL:https://www.youtube.com/watch?v=tTo6_Y3etP8
+DESCRIPTION:https://www.youtube.com/watch?v=tTo6_Y3etP8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как повысить цену и не потерять клиентов
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt-20261123@spbu-25b05
+DTSTAMP:20261105T173500Z
+DTSTART;TZID=Europe/Moscow:20261123T211000
+DTEND;TZID=Europe/Moscow:20261123T214000
+SUMMARY:▶️ Как искать учеников в Threads
+URL:https://www.youtube.com/watch?v=QnpbFPNPdJM
+DESCRIPTION:https://www.youtube.com/watch?v=QnpbFPNPdJM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как искать учеников в Threads
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt-20261125@spbu-25b05
+DTSTAMP:20261105T173500Z
+DTSTART;TZID=Europe/Moscow:20261125T211000
+DTEND;TZID=Europe/Moscow:20261125T214000
+SUMMARY:▶️ На чём дополнительно заработать репетитору
+URL:https://www.youtube.com/watch?v=v8sQjI7BiEw
+DESCRIPTION:https://www.youtube.com/watch?v=v8sQjI7BiEw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ На чём дополнительно заработать репетитору
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
 END:VCALENDAR
