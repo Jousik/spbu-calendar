@@ -102,34 +102,6 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:yt-20261123@spbu-25b05
-DTSTAMP:20261105T173500Z
-DTSTART;TZID=Europe/Moscow:20261123T211000
-DTEND;TZID=Europe/Moscow:20261123T213500
-SUMMARY:▶️ Как искать учеников в Threads (11 мин)
-URL:https://www.youtube.com/watch?v=QnpbFPNPdJM
-DESCRIPTION:https://www.youtube.com/watch?v=QnpbFPNPdJM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как искать учеников в Threads
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt-20261125@spbu-25b05
-DTSTAMP:20261105T173500Z
-DTSTART;TZID=Europe/Moscow:20261125T211000
-DTEND;TZID=Europe/Moscow:20261125T214500
-SUMMARY:▶️ На чём дополнительно заработать репетитору (16 мин)
-URL:https://www.youtube.com/watch?v=v8sQjI7BiEw
-DESCRIPTION:https://www.youtube.com/watch?v=v8sQjI7BiEw
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ На чём дополнительно заработать репетитору
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:yt2-20261110T203000@spbu-25b05
 DTSTAMP:20261105T174500Z
 DTSTART;TZID=Europe/Moscow:20261110T203000
@@ -210,20 +182,6 @@ DESCRIPTION:https://www.youtube.com/watch?v=oZ86lEMzszw
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:▶️ Как сделать вирусное видео в VK Клипах
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt2-20261121T210000@spbu-25b05
-DTSTAMP:20261105T174500Z
-DTSTART;TZID=Europe/Moscow:20261121T210000
-DTEND;TZID=Europe/Moscow:20261121T214500
-SUMMARY:▶️ Договор репетитора с клиентами (20 мин)
-URL:https://www.youtube.com/watch?v=XpgZzsAlgp4
-DESCRIPTION:https://www.youtube.com/watch?v=XpgZzsAlgp4
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Договор репетитора с клиентами
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -321,20 +279,6 @@ DESCRIPTION:https://www.youtube.com/watch?v=uW_CzyQwhv4
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:▶️ Как наладить режим сна: 3 стратегии от сомнолога
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt3-20261106-2110@spbu-25b05
-DTSTAMP:20261105T181500Z
-DTSTART;TZID=Europe/Moscow:20261106T211000
-DTEND;TZID=Europe/Moscow:20261106T214500
-SUMMARY:▶️ Как репетитору научиться продавать свои услуги (15 мин)
-URL:https://www.youtube.com/watch?v=2LgJjfaUmf0
-DESCRIPTION:https://www.youtube.com/watch?v=2LgJjfaUmf0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как репетитору научиться продавать свои услуги
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -461,20 +405,6 @@ DESCRIPTION:https://www.youtube.com/watch?v=OkD3Xz07qco
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:▶️ Продвижение ВКонтакте: видео\, клипы и посты — что работает
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt3-20261111-0740@spbu-25b05
-DTSTAMP:20261105T181500Z
-DTSTART;TZID=Europe/Moscow:20261111T173000
-DTEND;TZID=Europe/Moscow:20261111T182500
-SUMMARY:▶️ Как репетитору продавать обучение через Telegram (27 мин)
-URL:https://www.youtube.com/watch?v=05Wz3wGLKfE
-DESCRIPTION:https://www.youtube.com/watch?v=05Wz3wGLKfE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как репетитору продавать обучение через Telegram
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -895,20 +825,6 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:yt4-MeDqpC_pkYw@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261106T094000
-DTEND;TZID=Europe/Moscow:20261106T100500
-SUMMARY:▶️ Ошибки репетиторов на Авито (10 мин)
-URL:https://www.youtube.com/watch?v=MeDqpC_pkYw
-DESCRIPTION:https://www.youtube.com/watch?v=MeDqpC_pkYw
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Ошибки репетиторов на Авито (10 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:yt4-EkAYAXue7S8@spbu-25b05
 DTSTAMP:20261106T050000Z
 DTSTART;TZID=Europe/Moscow:20261106T100500
@@ -919,20 +835,6 @@ DESCRIPTION:https://www.youtube.com/watch?v=EkAYAXue7S8
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:▶️ Переход к мини-группам для репетитора (6 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt4-xwHOP4-m1mc@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261106T181500
-DTEND;TZID=Europe/Moscow:20261106T184000
-SUMMARY:▶️ Где искать учеников: соцсети\, Профи и Авито (12 мин)
-URL:https://www.youtube.com/watch?v=xwHOP4-m1mc
-DESCRIPTION:https://www.youtube.com/watch?v=xwHOP4-m1mc
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Где искать учеников: соцсети\, Профи и Авито (12 мин)
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -1023,34 +925,6 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:yt4-tv5Z8KzvLbU@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261108T082500
-DTEND;TZID=Europe/Moscow:20261108T085000
-SUMMARY:▶️ Почему репетиторы годами не могут поднять ставку (11 мин)
-URL:https://www.youtube.com/watch?v=tv5Z8KzvLbU
-DESCRIPTION:https://www.youtube.com/watch?v=tv5Z8KzvLbU
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Почему репетиторы годами не могут поднять ставку (11 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt4-tS4ZQsk0_0g@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261108T085000
-DTEND;TZID=Europe/Moscow:20261108T092500
-SUMMARY:▶️ Как репетитору зарабатывать больше (17 мин)
-URL:https://www.youtube.com/watch?v=tS4ZQsk0_0g
-DESCRIPTION:https://www.youtube.com/watch?v=tS4ZQsk0_0g
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как репетитору зарабатывать больше (17 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:yt4-7AjxlzspLBI@spbu-25b05
 DTSTAMP:20261106T050000Z
 DTSTART;TZID=Europe/Moscow:20261108T092500
@@ -1061,20 +935,6 @@ DESCRIPTION:https://www.youtube.com/watch?v=7AjxlzspLBI
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:▶️ Плюсы и минусы самозанятости (8 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt4-2Q1O-eCyKTE@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261108T104000
-DTEND;TZID=Europe/Moscow:20261108T111000
-SUMMARY:▶️ Сколько может зарабатывать репетитор (13 мин)
-URL:https://www.youtube.com/watch?v=2Q1O-eCyKTE
-DESCRIPTION:https://www.youtube.com/watch?v=2Q1O-eCyKTE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Сколько может зарабатывать репетитор (13 мин)
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -1103,20 +963,6 @@ DESCRIPTION:https://www.youtube.com/watch?v=JfLbi9Gb8C8
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:▶️ Как зарабатывать и преподавать онлайн (18 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt4-IdajSV1KOnM@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261108T183000
-DTEND;TZID=Europe/Moscow:20261108T191000
-SUMMARY:▶️ Репетиторство: 9 шагов к успеху (19 мин)
-URL:https://www.youtube.com/watch?v=IdajSV1KOnM
-DESCRIPTION:https://www.youtube.com/watch?v=IdajSV1KOnM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Репетиторство: 9 шагов к успеху (19 мин)
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -1801,34 +1647,6 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:yt4-zzNIZO4tUwA@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261116T075500
-DTEND;TZID=Europe/Moscow:20261116T082000
-SUMMARY:▶️ Как правильно объяснять (11 мин)
-URL:https://www.youtube.com/watch?v=zzNIZO4tUwA
-DESCRIPTION:https://www.youtube.com/watch?v=zzNIZO4tUwA
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как правильно объяснять (11 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt4-JUcZ5FWOq2s@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261116T082000
-DTEND;TZID=Europe/Moscow:20261116T084500
-SUMMARY:▶️ Как понятно объяснить ребёнку сложное (12 мин)
-URL:https://www.youtube.com/watch?v=JUcZ5FWOq2s
-DESCRIPTION:https://www.youtube.com/watch?v=JUcZ5FWOq2s
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как понятно объяснить ребёнку сложное (12 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:yt4-URjEMb2gZS8@spbu-25b05
 DTSTAMP:20261106T050000Z
 DTSTART;TZID=Europe/Moscow:20261116T084500
@@ -2083,20 +1901,6 @@ DESCRIPTION:https://www.youtube.com/watch?v=F40699WqNeQ
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:▶️ Как удерживать внимание учеников (8 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt4-5AhEFNos0LY@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261117T091500
-DTEND;TZID=Europe/Moscow:20261117T093500
-SUMMARY:▶️ Как репетитору набрать учеников за неделю (9 мин)
-URL:https://www.youtube.com/watch?v=5AhEFNos0LY
-DESCRIPTION:https://www.youtube.com/watch?v=5AhEFNos0LY
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как репетитору набрать учеников за неделю (9 мин)
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -2577,34 +2381,6 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:yt4-krPS79emD_E@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261120T084500
-DTEND;TZID=Europe/Moscow:20261120T092000
-SUMMARY:▶️ Как мотивировать ребёнка учиться (17 мин)
-URL:https://www.youtube.com/watch?v=krPS79emD_E
-DESCRIPTION:https://www.youtube.com/watch?v=krPS79emD_E
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как мотивировать ребёнка учиться (17 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt4-jms8wIewPe0@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261120T092000
-DTEND;TZID=Europe/Moscow:20261120T095000
-SUMMARY:▶️ Как научить ребёнка учиться (13 мин)
-URL:https://www.youtube.com/watch?v=jms8wIewPe0
-DESCRIPTION:https://www.youtube.com/watch?v=jms8wIewPe0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как научить ребёнка учиться (13 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:yt4-ZDdGcA_780s@spbu-25b05
 DTSTAMP:20261106T050000Z
 DTSTART;TZID=Europe/Moscow:20261120T095000
@@ -3025,20 +2801,6 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:yt4-39b_w90Onvw@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261106T083000
-DTEND;TZID=Europe/Moscow:20261106T090500
-SUMMARY:▶️ Вопросы начинающего репетитора: поиск учеников и первое занятие (16 мин)
-URL:https://www.youtube.com/watch?v=39b_w90Onvw
-DESCRIPTION:https://www.youtube.com/watch?v=39b_w90Onvw
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Вопросы начинающего репетитора: поиск учеников и первое занятие (16 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:yt4-OKPJtf53cAc@spbu-25b05
 DTSTAMP:20261106T050000Z
 DTSTART;TZID=Europe/Moscow:20261108T111000
@@ -3137,20 +2899,6 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:yt4-vnM81AWpOPc@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261123T213500
-DTEND;TZID=Europe/Moscow:20261123T215000
-SUMMARY:▶️ Если хочешь стать репетитором: с чего начать (7 мин)
-URL:https://www.youtube.com/watch?v=vnM81AWpOPc
-DESCRIPTION:https://www.youtube.com/watch?v=vnM81AWpOPc
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Если хочешь стать репетитором: с чего начать (7 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:yt4-qMclw_iqokY@spbu-25b05
 DTSTAMP:20261106T050000Z
 DTSTART;TZID=Europe/Moscow:20261124T072000
@@ -3217,6 +2965,384 @@ DESCRIPTION:https://www.youtube.com/watch?v=2_IxpjIWCo8
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:▶️ Как высыпаться: последствия недосыпа (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-NeMY84m1MFQ@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T081500
+DTEND;TZID=Europe/Moscow:20261106T083500
+SUMMARY:▶️ Как репетитору поднять чек на занятия (9 мин)
+URL:https://www.youtube.com/watch?v=NeMY84m1MFQ
+DESCRIPTION:https://www.youtube.com/watch?v=NeMY84m1MFQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору поднять чек на занятия (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-IpvY5AGutg0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T083500
+DTEND;TZID=Europe/Moscow:20261106T090500
+SUMMARY:▶️ Как поднять стоимость занятий репетитору (14 мин)
+URL:https://www.youtube.com/watch?v=IpvY5AGutg0
+DESCRIPTION:https://www.youtube.com/watch?v=IpvY5AGutg0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как поднять стоимость занятий репетитору (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-BMRY0mtDo_8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T094000
+DTEND;TZID=Europe/Moscow:20261106T100500
+SUMMARY:▶️ Как стать репетитором с нуля и найти первых учеников (10 мин)
+URL:https://www.youtube.com/watch?v=BMRY0mtDo_8
+DESCRIPTION:https://www.youtube.com/watch?v=BMRY0mtDo_8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как стать репетитором с нуля и найти первых учеников (10 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-wHlkMD8JUzo@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T181500
+DTEND;TZID=Europe/Moscow:20261106T184000
+SUMMARY:▶️ Как репетитору набрать учеников в группы (12 мин)
+URL:https://www.youtube.com/watch?v=wHlkMD8JUzo
+DESCRIPTION:https://www.youtube.com/watch?v=wHlkMD8JUzo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору набрать учеников в группы (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-XVdEvFPPTNQ@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T210000
+DTEND;TZID=Europe/Moscow:20261106T212000
+SUMMARY:▶️ Закон\, который может ударить по репетиторам (9 мин)
+URL:https://www.youtube.com/watch?v=XVdEvFPPTNQ
+DESCRIPTION:https://www.youtube.com/watch?v=XVdEvFPPTNQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Закон\, который может ударить по репетиторам (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-DdkKWH31jFw@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T212000
+DTEND;TZID=Europe/Moscow:20261106T213500
+SUMMARY:▶️ 3 ошибки репетитора\, которые опасно повторять (5 мин)
+URL:https://www.youtube.com/watch?v=DdkKWH31jFw
+DESCRIPTION:https://www.youtube.com/watch?v=DdkKWH31jFw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 3 ошибки репетитора\, которые опасно повторять (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-OaPWF6Lx5Zk@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T213500
+DTEND;TZID=Europe/Moscow:20261106T214500
+SUMMARY:▶️ Как репетитору поднять цену на занятия (4 мин)
+URL:https://www.youtube.com/watch?v=OaPWF6Lx5Zk
+DESCRIPTION:https://www.youtube.com/watch?v=OaPWF6Lx5Zk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору поднять цену на занятия (4 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-UeYCHabw21o@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T082500
+DTEND;TZID=Europe/Moscow:20261108T083500
+SUMMARY:▶️ Репетитору: как работать без страха перед налоговой (3 мин)
+URL:https://www.youtube.com/watch?v=UeYCHabw21o
+DESCRIPTION:https://www.youtube.com/watch?v=UeYCHabw21o
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Репетитору: как работать без страха перед налоговой (3 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-oSjPFeuHOUw@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T083500
+DTEND;TZID=Europe/Moscow:20261108T090000
+SUMMARY:▶️ Объявление репетитора на Авито на высокий чек (12 мин)
+URL:https://www.youtube.com/watch?v=oSjPFeuHOUw
+DESCRIPTION:https://www.youtube.com/watch?v=oSjPFeuHOUw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Объявление репетитора на Авито на высокий чек (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-yBp3D_bE9SQ@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T183000
+DTEND;TZID=Europe/Moscow:20261108T190500
+SUMMARY:▶️ 7 новостей образования\, которые повлияют на доход репетитора (16 мин)
+URL:https://www.youtube.com/watch?v=yBp3D_bE9SQ
+DESCRIPTION:https://www.youtube.com/watch?v=yBp3D_bE9SQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 7 новостей образования\, которые повлияют на доход репетитора (16 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-QXGlXAvLPH8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261111T172500
+DTEND;TZID=Europe/Moscow:20261111T180500
+SUMMARY:▶️ Как репетитору повышать цену на занятия (18 мин)
+URL:https://www.youtube.com/watch?v=QXGlXAvLPH8
+DESCRIPTION:https://www.youtube.com/watch?v=QXGlXAvLPH8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору повышать цену на занятия (18 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-B_un8kQ8oVo@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T075500
+DTEND;TZID=Europe/Moscow:20261116T084000
+SUMMARY:▶️ Полный гайд: как искать учеников через Профи.ру (20 мин)
+URL:https://www.youtube.com/watch?v=B_un8kQ8oVo
+DESCRIPTION:https://www.youtube.com/watch?v=B_un8kQ8oVo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Полный гайд: как искать учеников через Профи.ру (20 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-t4ZIDb-5BZo@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T084500
+DTEND;TZID=Europe/Moscow:20261120T093000
+SUMMARY:▶️ Как репетитору провести пробный урок (22 мин)
+URL:https://www.youtube.com/watch?v=t4ZIDb-5BZo
+DESCRIPTION:https://www.youtube.com/watch?v=t4ZIDb-5BZo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору провести пробный урок (22 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-oUwLg2mwrkQ@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261121T210000
+DTEND;TZID=Europe/Moscow:20261121T214500
+SUMMARY:▶️ Притворился учеником: проверка молодых репетиторов (21 мин)
+URL:https://www.youtube.com/watch?v=oUwLg2mwrkQ
+DESCRIPTION:https://www.youtube.com/watch?v=oUwLg2mwrkQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Притворился учеником: проверка молодых репетиторов (21 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-8CBaoltWdSM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T210000
+DTEND;TZID=Europe/Moscow:20261123T214500
+SUMMARY:▶️ Как репетитору проводить групповые уроки (разбор урока) (21 мин)
+URL:https://www.youtube.com/watch?v=8CBaoltWdSM
+DESCRIPTION:https://www.youtube.com/watch?v=8CBaoltWdSM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору проводить групповые уроки (разбор урока) (21 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-c4-z3L4L2LA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261125T072000
+DTEND;TZID=Europe/Moscow:20261125T081000
+SUMMARY:▶️ Отклики на Профи.ру: как сделать\, чтобы выбрали вас (23 мин)
+URL:https://www.youtube.com/watch?v=c4-z3L4L2LA
+DESCRIPTION:https://www.youtube.com/watch?v=c4-z3L4L2LA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Отклики на Профи.ру: как сделать\, чтобы выбрали вас (23 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-aOJaZwWOIl0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261125T173500
+DTEND;TZID=Europe/Moscow:20261125T182500
+SUMMARY:▶️ Топ-5 ошибок репетиторов на Профи.ру (24 мин)
+URL:https://www.youtube.com/watch?v=aOJaZwWOIl0
+DESCRIPTION:https://www.youtube.com/watch?v=aOJaZwWOIl0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Топ-5 ошибок репетиторов на Профи.ру (24 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-4mvPJ8AFx3k@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261126T072000
+DTEND;TZID=Europe/Moscow:20261126T081500
+SUMMARY:▶️ 17 способов привлечь учеников репетитору (25 мин)
+URL:https://www.youtube.com/watch?v=4mvPJ8AFx3k
+DESCRIPTION:https://www.youtube.com/watch?v=4mvPJ8AFx3k
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 17 способов привлечь учеников репетитору (25 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-_RCo-BAQXk8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261126T081500
+DTEND;TZID=Europe/Moscow:20261126T091500
+SUMMARY:▶️ Молодой vs старый: битва репетиторов (27 мин)
+URL:https://www.youtube.com/watch?v=_RCo-BAQXk8
+DESCRIPTION:https://www.youtube.com/watch?v=_RCo-BAQXk8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Молодой vs старый: битва репетиторов (27 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-ZWM0z9Nb0oY@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261126T091500
+DTEND;TZID=Europe/Moscow:20261126T101500
+SUMMARY:▶️ Как репетитору поднять стоимость занятий (подробно) (29 мин)
+URL:https://www.youtube.com/watch?v=ZWM0z9Nb0oY
+DESCRIPTION:https://www.youtube.com/watch?v=ZWM0z9Nb0oY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору поднять стоимость занятий (подробно) (29 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-DuQ_El7x6rQ@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T090000
+DTEND;TZID=Europe/Moscow:20261108T092500
+SUMMARY:▶️ Как доносить свои мысли понятнее (метод медведя) (11 мин)
+URL:https://www.youtube.com/watch?v=DuQ_El7x6rQ
+DESCRIPTION:https://www.youtube.com/watch?v=DuQ_El7x6rQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как доносить свои мысли понятнее (метод медведя) (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-XNvT8Vx1UVM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T104000
+DTEND;TZID=Europe/Moscow:20261108T110000
+SUMMARY:▶️ Советы по ведению переговоров (9 мин)
+URL:https://www.youtube.com/watch?v=XNvT8Vx1UVM
+DESCRIPTION:https://www.youtube.com/watch?v=XNvT8Vx1UVM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Советы по ведению переговоров (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-N_Rf7uF9yYk@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261111T180500
+DTEND;TZID=Europe/Moscow:20261111T182500
+SUMMARY:▶️ Правила эффективной коммуникации (9 мин)
+URL:https://www.youtube.com/watch?v=N_Rf7uF9yYk
+DESCRIPTION:https://www.youtube.com/watch?v=N_Rf7uF9yYk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Правила эффективной коммуникации (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-iQkBcfJxpRU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T091500
+DTEND;TZID=Europe/Moscow:20261117T093500
+SUMMARY:▶️ 5 способов расположить к себе собеседника (7 мин)
+URL:https://www.youtube.com/watch?v=iQkBcfJxpRU
+DESCRIPTION:https://www.youtube.com/watch?v=iQkBcfJxpRU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 5 способов расположить к себе собеседника (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-UzSc0lPsUI8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261125T182500
+DTEND;TZID=Europe/Moscow:20261125T190000
+SUMMARY:▶️ Приёмы против токсичных людей (15 мин)
+URL:https://www.youtube.com/watch?v=UzSc0lPsUI8
+DESCRIPTION:https://www.youtube.com/watch?v=UzSc0lPsUI8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Приёмы против токсичных людей (15 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-XbyEg3Uf_fA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261125T210000
+DTEND;TZID=Europe/Moscow:20261125T213000
+SUMMARY:▶️ Как получать своё без конфликта: 7 приёмов (13 мин)
+URL:https://www.youtube.com/watch?v=XbyEg3Uf_fA
+DESCRIPTION:https://www.youtube.com/watch?v=XbyEg3Uf_fA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как получать своё без конфликта: 7 приёмов (13 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-N2pKWCbBKAc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261126T200500
+DTEND;TZID=Europe/Moscow:20261126T211000
+SUMMARY:▶️ Полная схема выхода на 150 000 ₽ в репетиторстве (31 мин)
+URL:https://www.youtube.com/watch?v=N2pKWCbBKAc
+DESCRIPTION:https://www.youtube.com/watch?v=N2pKWCbBKAc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Полная схема выхода на 150 000 ₽ в репетиторстве (31 мин)
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
