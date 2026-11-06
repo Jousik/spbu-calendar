@@ -900,4 +900,2198 @@ DESCRIPTION:Прогулка 20 минут
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261106T171000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T171000
+DTEND;TZID=Europe/Moscow:20261106T174000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-K42s8KQ_oNA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T083000
+DTEND;TZID=Europe/Moscow:20261106T091000
+SUMMARY:▶️ Как репетитору быстро найти учеников: 5 способов (19 мин)
+URL:https://www.youtube.com/watch?v=K42s8KQ_oNA
+DESCRIPTION:https://www.youtube.com/watch?v=K42s8KQ_oNA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору быстро найти учеников: 5 способов (19 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-TCpaBqGiyY8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T091000
+DTEND;TZID=Europe/Moscow:20261106T094000
+SUMMARY:▶️ Полный гайд: как искать учеников через Авито (14 мин)
+URL:https://www.youtube.com/watch?v=TCpaBqGiyY8
+DESCRIPTION:https://www.youtube.com/watch?v=TCpaBqGiyY8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Полный гайд: как искать учеников через Авито (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-MeDqpC_pkYw@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T094000
+DTEND;TZID=Europe/Moscow:20261106T100500
+SUMMARY:▶️ Ошибки репетиторов на Авито (10 мин)
+URL:https://www.youtube.com/watch?v=MeDqpC_pkYw
+DESCRIPTION:https://www.youtube.com/watch?v=MeDqpC_pkYw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Ошибки репетиторов на Авито (10 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-EkAYAXue7S8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T100500
+DTEND;TZID=Europe/Moscow:20261106T102000
+SUMMARY:▶️ Переход к мини-группам для репетитора (6 мин)
+URL:https://www.youtube.com/watch?v=EkAYAXue7S8
+DESCRIPTION:https://www.youtube.com/watch?v=EkAYAXue7S8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Переход к мини-группам для репетитора (6 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-xwHOP4-m1mc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T181500
+DTEND;TZID=Europe/Moscow:20261106T184000
+SUMMARY:▶️ Где искать учеников: соцсети\, Профи и Авито (12 мин)
+URL:https://www.youtube.com/watch?v=xwHOP4-m1mc
+DESCRIPTION:https://www.youtube.com/watch?v=xwHOP4-m1mc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Где искать учеников: соцсети\, Профи и Авито (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-9JHg22r6dcc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T184000
+DTEND;TZID=Europe/Moscow:20261106T190000
+SUMMARY:▶️ Идеальный пробный урок репетитора (7 мин)
+URL:https://www.youtube.com/watch?v=9JHg22r6dcc
+DESCRIPTION:https://www.youtube.com/watch?v=9JHg22r6dcc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Идеальный пробный урок репетитора (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261107T181500@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261107T181500
+DTEND;TZID=Europe/Moscow:20261107T184500
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-161GDJGrHuE@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261107T121500
+DTEND;TZID=Europe/Moscow:20261107T123000
+SUMMARY:▶️ Как работают новые алгоритмы ВК (6 мин)
+URL:https://www.youtube.com/watch?v=161GDJGrHuE
+DESCRIPTION:https://www.youtube.com/watch?v=161GDJGrHuE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как работают новые алгоритмы ВК (6 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-SGWio0RHINE@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261107T184500
+DTEND;TZID=Europe/Moscow:20261107T190000
+SUMMARY:▶️ 5 правил финансовой грамотности (5 мин)
+URL:https://www.youtube.com/watch?v=SGWio0RHINE
+DESCRIPTION:https://www.youtube.com/watch?v=SGWio0RHINE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 5 правил финансовой грамотности (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-bvE8nYmnwaM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261107T211500
+DTEND;TZID=Europe/Moscow:20261107T214000
+SUMMARY:▶️ Авито для репетиторов: объявления за 15 минут (11 мин)
+URL:https://www.youtube.com/watch?v=bvE8nYmnwaM
+DESCRIPTION:https://www.youtube.com/watch?v=bvE8nYmnwaM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Авито для репетиторов: объявления за 15 минут (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261108T172000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T172000
+DTEND;TZID=Europe/Moscow:20261108T175000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-mPCop90y5H8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T072000
+DTEND;TZID=Europe/Moscow:20261108T075500
+SUMMARY:▶️ Система стабильного заработка репетитора (16 мин)
+URL:https://www.youtube.com/watch?v=mPCop90y5H8
+DESCRIPTION:https://www.youtube.com/watch?v=mPCop90y5H8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Система стабильного заработка репетитора (16 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-tv5Z8KzvLbU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T082500
+DTEND;TZID=Europe/Moscow:20261108T085000
+SUMMARY:▶️ Почему репетиторы годами не могут поднять ставку (11 мин)
+URL:https://www.youtube.com/watch?v=tv5Z8KzvLbU
+DESCRIPTION:https://www.youtube.com/watch?v=tv5Z8KzvLbU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Почему репетиторы годами не могут поднять ставку (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-tS4ZQsk0_0g@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T085000
+DTEND;TZID=Europe/Moscow:20261108T092500
+SUMMARY:▶️ Как репетитору зарабатывать больше (17 мин)
+URL:https://www.youtube.com/watch?v=tS4ZQsk0_0g
+DESCRIPTION:https://www.youtube.com/watch?v=tS4ZQsk0_0g
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору зарабатывать больше (17 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-7AjxlzspLBI@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T092500
+DTEND;TZID=Europe/Moscow:20261108T094500
+SUMMARY:▶️ Плюсы и минусы самозанятости (8 мин)
+URL:https://www.youtube.com/watch?v=7AjxlzspLBI
+DESCRIPTION:https://www.youtube.com/watch?v=7AjxlzspLBI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Плюсы и минусы самозанятости (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-2Q1O-eCyKTE@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T104000
+DTEND;TZID=Europe/Moscow:20261108T111000
+SUMMARY:▶️ Сколько может зарабатывать репетитор (13 мин)
+URL:https://www.youtube.com/watch?v=2Q1O-eCyKTE
+DESCRIPTION:https://www.youtube.com/watch?v=2Q1O-eCyKTE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Сколько может зарабатывать репетитор (13 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-QKhkEMIRo_g@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T111000
+DTEND;TZID=Europe/Moscow:20261108T114000
+SUMMARY:▶️ Советы репетиторам: ставка\, границы и правила (12 мин)
+URL:https://www.youtube.com/watch?v=QKhkEMIRo_g
+DESCRIPTION:https://www.youtube.com/watch?v=QKhkEMIRo_g
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Советы репетиторам: ставка\, границы и правила (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-NvH_wtOG5X0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T161500
+DTEND;TZID=Europe/Moscow:20261108T163000
+SUMMARY:▶️ Как вести бюджет и не бросить (Т—Ж) (5 мин)
+URL:https://www.youtube.com/watch?v=NvH_wtOG5X0
+DESCRIPTION:https://www.youtube.com/watch?v=NvH_wtOG5X0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как вести бюджет и не бросить (Т—Ж) (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-JfLbi9Gb8C8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T175000
+DTEND;TZID=Europe/Moscow:20261108T183000
+SUMMARY:▶️ Как зарабатывать и преподавать онлайн (18 мин)
+URL:https://www.youtube.com/watch?v=JfLbi9Gb8C8
+DESCRIPTION:https://www.youtube.com/watch?v=JfLbi9Gb8C8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как зарабатывать и преподавать онлайн (18 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-IdajSV1KOnM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T183000
+DTEND;TZID=Europe/Moscow:20261108T191000
+SUMMARY:▶️ Репетиторство: 9 шагов к успеху (19 мин)
+URL:https://www.youtube.com/watch?v=IdajSV1KOnM
+DESCRIPTION:https://www.youtube.com/watch?v=IdajSV1KOnM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Репетиторство: 9 шагов к успеху (19 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-ORhFkbMDw9Y@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T191000
+DTEND;TZID=Europe/Moscow:20261108T193000
+SUMMARY:▶️ Финансовая грамотность для чайников (8 мин)
+URL:https://www.youtube.com/watch?v=ORhFkbMDw9Y
+DESCRIPTION:https://www.youtube.com/watch?v=ORhFkbMDw9Y
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Финансовая грамотность для чайников (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-cB3ztFmAXnU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T200500
+DTEND;TZID=Europe/Moscow:20261108T202000
+SUMMARY:▶️ Тяга штанги в наклоне (5 мин)
+URL:https://www.youtube.com/watch?v=cB3ztFmAXnU
+DESCRIPTION:https://www.youtube.com/watch?v=cB3ztFmAXnU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Тяга штанги в наклоне (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261109T171000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261109T171000
+DTEND;TZID=Europe/Moscow:20261109T174000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-2Y_cB4nmX-Q@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261109T072000
+DTEND;TZID=Europe/Moscow:20261109T074500
+SUMMARY:▶️ 5 секретов продвижения ВКонтакте (12 мин)
+URL:https://www.youtube.com/watch?v=2Y_cB4nmX-Q
+DESCRIPTION:https://www.youtube.com/watch?v=2Y_cB4nmX-Q
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 5 секретов продвижения ВКонтакте (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-ZayAoyJ7VYI@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261109T091000
+DTEND;TZID=Europe/Moscow:20261109T094000
+SUMMARY:▶️ Вся правда о продвижении в ВК (13 мин)
+URL:https://www.youtube.com/watch?v=ZayAoyJ7VYI
+DESCRIPTION:https://www.youtube.com/watch?v=ZayAoyJ7VYI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Вся правда о продвижении в ВК (13 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-JzePaLZ1BoE@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261109T094000
+DTEND;TZID=Europe/Moscow:20261109T100500
+SUMMARY:▶️ Как правильно настроить продвижение на Авито (12 мин)
+URL:https://www.youtube.com/watch?v=JzePaLZ1BoE
+DESCRIPTION:https://www.youtube.com/watch?v=JzePaLZ1BoE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как правильно настроить продвижение на Авито (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-DrY1kR3o4HE@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261109T180500
+DTEND;TZID=Europe/Moscow:20261109T183500
+SUMMARY:▶️ Реклама ВК: пошаговая инструкция без слива бюджета (14 мин)
+URL:https://www.youtube.com/watch?v=DrY1kR3o4HE
+DESCRIPTION:https://www.youtube.com/watch?v=DrY1kR3o4HE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Реклама ВК: пошаговая инструкция без слива бюджета (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-LEusnZ3JNjk@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261109T183500
+DTEND;TZID=Europe/Moscow:20261109T190000
+SUMMARY:▶️ Мало просмотров на Авито — как исправить (11 мин)
+URL:https://www.youtube.com/watch?v=LEusnZ3JNjk
+DESCRIPTION:https://www.youtube.com/watch?v=LEusnZ3JNjk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Мало просмотров на Авито — как исправить (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-jmyEJNJKKfc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261109T212000
+DTEND;TZID=Europe/Moscow:20261109T215000
+SUMMARY:▶️ 10 фишек продвижения на Авито (14 мин)
+URL:https://www.youtube.com/watch?v=jmyEJNJKKfc
+DESCRIPTION:https://www.youtube.com/watch?v=jmyEJNJKKfc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 10 фишек продвижения на Авито (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261110T125000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T125000
+DTEND;TZID=Europe/Moscow:20261110T132000
+SUMMARY:🍽 Обед
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261110T173000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T173000
+DTEND;TZID=Europe/Moscow:20261110T180000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-U_lgD2q4QZI@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T072000
+DTEND;TZID=Europe/Moscow:20261110T080000
+SUMMARY:▶️ Как забрать рынок услуг на Авито (17 мин)
+URL:https://www.youtube.com/watch?v=U_lgD2q4QZI
+DESCRIPTION:https://www.youtube.com/watch?v=U_lgD2q4QZI
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как забрать рынок услуг на Авито (17 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-v56W6ciQPjg@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T083000
+DTEND;TZID=Europe/Moscow:20261110T090500
+SUMMARY:▶️ Изменения для самозанятых в 2026 (15 мин)
+URL:https://www.youtube.com/watch?v=v56W6ciQPjg
+DESCRIPTION:https://www.youtube.com/watch?v=v56W6ciQPjg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Изменения для самозанятых в 2026 (15 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-jp-HdN9TV2M@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T090500
+DTEND;TZID=Europe/Moscow:20261110T093500
+SUMMARY:▶️ Самозанятые: как не попасть под проверку налоговой (14 мин)
+URL:https://www.youtube.com/watch?v=jp-HdN9TV2M
+DESCRIPTION:https://www.youtube.com/watch?v=jp-HdN9TV2M
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Самозанятые: как не попасть под проверку налоговой (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-stW-EEQmpmg@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T093500
+DTEND;TZID=Europe/Moscow:20261110T100000
+SUMMARY:▶️ Инвестиции для чайников: акции\, облигации\, фонды (11 мин)
+URL:https://www.youtube.com/watch?v=stW-EEQmpmg
+DESCRIPTION:https://www.youtube.com/watch?v=stW-EEQmpmg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Инвестиции для чайников: акции\, облигации\, фонды (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-FqmEptTf4m4@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T102000
+DTEND;TZID=Europe/Moscow:20261110T105000
+SUMMARY:▶️ Личные финансы для начинающих (12 мин)
+URL:https://www.youtube.com/watch?v=FqmEptTf4m4
+DESCRIPTION:https://www.youtube.com/watch?v=FqmEptTf4m4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Личные финансы для начинающих (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-lxsjQgJJVj0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T105000
+DTEND;TZID=Europe/Moscow:20261110T113000
+SUMMARY:▶️ Как управлять личными финансами — профессор ВШЭ (17 мин)
+URL:https://www.youtube.com/watch?v=lxsjQgJJVj0
+DESCRIPTION:https://www.youtube.com/watch?v=lxsjQgJJVj0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как управлять личными финансами — профессор ВШЭ (17 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-GoCW5bpHTZ4@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T113000
+DTEND;TZID=Europe/Moscow:20261110T120500
+SUMMARY:▶️ Как новичку начать инвестировать (16 мин)
+URL:https://www.youtube.com/watch?v=GoCW5bpHTZ4
+DESCRIPTION:https://www.youtube.com/watch?v=GoCW5bpHTZ4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как новичку начать инвестировать (16 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-6K2nWU-ARfU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T120500
+DTEND;TZID=Europe/Moscow:20261110T122000
+SUMMARY:▶️ Как выспаться — Научпок (5 мин)
+URL:https://www.youtube.com/watch?v=6K2nWU-ARfU
+DESCRIPTION:https://www.youtube.com/watch?v=6K2nWU-ARfU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как выспаться — Научпок (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-Okpknfv-KH0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T132000
+DTEND;TZID=Europe/Moscow:20261110T134500
+SUMMARY:▶️ Как накопить финансовую подушку (11 мин)
+URL:https://www.youtube.com/watch?v=Okpknfv-KH0
+DESCRIPTION:https://www.youtube.com/watch?v=Okpknfv-KH0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как накопить финансовую подушку (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-2LAS2J7IaGo@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T161000
+DTEND;TZID=Europe/Moscow:20261110T164500
+SUMMARY:▶️ С чего начать инвестировать: портфель новичка (16 мин)
+URL:https://www.youtube.com/watch?v=2LAS2J7IaGo
+DESCRIPTION:https://www.youtube.com/watch?v=2LAS2J7IaGo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ С чего начать инвестировать: портфель новичка (16 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-sPs4jGRxac4@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T200000
+DTEND;TZID=Europe/Moscow:20261110T203000
+SUMMARY:▶️ Всё о становой тяге за 12 минут (12 мин)
+URL:https://www.youtube.com/watch?v=sPs4jGRxac4
+DESCRIPTION:https://www.youtube.com/watch?v=sPs4jGRxac4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Всё о становой тяге за 12 минут (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-t-Xpi65BO10@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261110T204000
+DTEND;TZID=Europe/Moscow:20261110T210000
+SUMMARY:▶️ Техника становой тяги (классика и сумо) (9 мин)
+URL:https://www.youtube.com/watch?v=t-Xpi65BO10
+DESCRIPTION:https://www.youtube.com/watch?v=t-Xpi65BO10
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Техника становой тяги (классика и сумо) (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261111T182500@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261111T182500
+DTEND;TZID=Europe/Moscow:20261111T185500
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-D6xxte0bKD8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261111T072000
+DTEND;TZID=Europe/Moscow:20261111T075500
+SUMMARY:▶️ Какой должна быть финансовая подушка (15 мин)
+URL:https://www.youtube.com/watch?v=D6xxte0bKD8
+DESCRIPTION:https://www.youtube.com/watch?v=D6xxte0bKD8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Какой должна быть финансовая подушка (15 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-Fv4-fiwGGVA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261111T075500
+DTEND;TZID=Europe/Moscow:20261111T081500
+SUMMARY:▶️ Тяга штанги в наклоне: 2 варианта (8 мин)
+URL:https://www.youtube.com/watch?v=Fv4-fiwGGVA
+DESCRIPTION:https://www.youtube.com/watch?v=Fv4-fiwGGVA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Тяга штанги в наклоне: 2 варианта (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-WseQjwm2CEU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261112T101500
+DTEND;TZID=Europe/Moscow:20261112T103500
+SUMMARY:▶️ Рекомпозиция: жир вниз\, мышцы вверх (9 мин)
+URL:https://www.youtube.com/watch?v=WseQjwm2CEU
+DESCRIPTION:https://www.youtube.com/watch?v=WseQjwm2CEU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Рекомпозиция: жир вниз\, мышцы вверх (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-Zb1uGa2RWC8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261112T173500
+DTEND;TZID=Europe/Moscow:20261112T180000
+SUMMARY:▶️ Рекомпозиция тела в 3 этапа (научно) (10 мин)
+URL:https://www.youtube.com/watch?v=Zb1uGa2RWC8
+DESCRIPTION:https://www.youtube.com/watch?v=Zb1uGa2RWC8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Рекомпозиция тела в 3 этапа (научно) (10 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-lGusrZ1F3NY@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261112T200500
+DTEND;TZID=Europe/Moscow:20261112T203500
+SUMMARY:▶️ Как составить программу тренировок (13 мин)
+URL:https://www.youtube.com/watch?v=lGusrZ1F3NY
+DESCRIPTION:https://www.youtube.com/watch?v=lGusrZ1F3NY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как составить программу тренировок (13 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-2NOu49Ci1Tc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261112T211000
+DTEND;TZID=Europe/Moscow:20261112T215000
+SUMMARY:▶️ Сплит верх-низ на 4 дня для роста мышц (17 мин)
+URL:https://www.youtube.com/watch?v=2NOu49Ci1Tc
+DESCRIPTION:https://www.youtube.com/watch?v=2NOu49Ci1Tc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Сплит верх-низ на 4 дня для роста мышц (17 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261113T181500@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261113T181500
+DTEND;TZID=Europe/Moscow:20261113T184500
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-BC5eI-t1Qbo@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261113T072000
+DTEND;TZID=Europe/Moscow:20261113T075000
+SUMMARY:▶️ Программа верх-низ для набора массы (12 мин)
+URL:https://www.youtube.com/watch?v=BC5eI-t1Qbo
+DESCRIPTION:https://www.youtube.com/watch?v=BC5eI-t1Qbo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Программа верх-низ для набора массы (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-9HdYDapu-Y4@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261113T084500
+DTEND;TZID=Europe/Moscow:20261113T091500
+SUMMARY:▶️ Рекомпозиция: как изменить состав тела (14 мин)
+URL:https://www.youtube.com/watch?v=9HdYDapu-Y4
+DESCRIPTION:https://www.youtube.com/watch?v=9HdYDapu-Y4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Рекомпозиция: как изменить состав тела (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-ckcoMNU15lc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261113T091500
+DTEND;TZID=Europe/Moscow:20261113T094500
+SUMMARY:▶️ Во сколько на самом деле нужно ложиться спать (14 мин)
+URL:https://www.youtube.com/watch?v=ckcoMNU15lc
+DESCRIPTION:https://www.youtube.com/watch?v=ckcoMNU15lc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Во сколько на самом деле нужно ложиться спать (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-BJjfXB7mFGA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261113T094500
+DTEND;TZID=Europe/Moscow:20261113T101000
+SUMMARY:▶️ 10 советов для хорошего сна (11 мин)
+URL:https://www.youtube.com/watch?v=BJjfXB7mFGA
+DESCRIPTION:https://www.youtube.com/watch?v=BJjfXB7mFGA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 10 советов для хорошего сна (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-vBEA2Hpn0bE@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261113T184500
+DTEND;TZID=Europe/Moscow:20261113T190000
+SUMMARY:▶️ Как реально развить дисциплину (6 мин)
+URL:https://www.youtube.com/watch?v=vBEA2Hpn0bE
+DESCRIPTION:https://www.youtube.com/watch?v=vBEA2Hpn0bE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как реально развить дисциплину (6 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-EJNSe9OPWkU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261113T212000
+DTEND;TZID=Europe/Moscow:20261113T214000
+SUMMARY:▶️ Как перестать откладывать дела на потом (9 мин)
+URL:https://www.youtube.com/watch?v=EJNSe9OPWkU
+DESCRIPTION:https://www.youtube.com/watch?v=EJNSe9OPWkU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как перестать откладывать дела на потом (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261114T181500@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261114T181500
+DTEND;TZID=Europe/Moscow:20261114T184500
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-BXPxDA9F__U@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261114T121500
+DTEND;TZID=Europe/Moscow:20261114T123500
+SUMMARY:▶️ Дисциплина для ленивых (9 мин)
+URL:https://www.youtube.com/watch?v=BXPxDA9F__U
+DESCRIPTION:https://www.youtube.com/watch?v=BXPxDA9F__U
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Дисциплина для ленивых (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-YRXFUzzUYnw@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261114T184500
+DTEND;TZID=Europe/Moscow:20261114T190000
+SUMMARY:▶️ Техника Фейнмана (5 мин)
+URL:https://www.youtube.com/watch?v=YRXFUzzUYnw
+DESCRIPTION:https://www.youtube.com/watch?v=YRXFUzzUYnw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Техника Фейнмана (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-V92Zfq_8064@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261114T204500
+DTEND;TZID=Europe/Moscow:20261114T210000
+SUMMARY:▶️ Плюсы и минусы делегирования (7 мин)
+URL:https://www.youtube.com/watch?v=V92Zfq_8064
+DESCRIPTION:https://www.youtube.com/watch?v=V92Zfq_8064
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Плюсы и минусы делегирования (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-FcePn6Yg8z0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261114T212500
+DTEND;TZID=Europe/Moscow:20261114T215000
+SUMMARY:▶️ Дисциплина решает (10 мин)
+URL:https://www.youtube.com/watch?v=FcePn6Yg8z0
+DESCRIPTION:https://www.youtube.com/watch?v=FcePn6Yg8z0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Дисциплина решает (10 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261115T175500@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261115T175500
+DTEND;TZID=Europe/Moscow:20261115T182500
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-GAwNWq2CDCM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261115T072000
+DTEND;TZID=Europe/Moscow:20261115T075500
+SUMMARY:▶️ Как побороть прокрастинацию (15 мин)
+URL:https://www.youtube.com/watch?v=GAwNWq2CDCM
+DESCRIPTION:https://www.youtube.com/watch?v=GAwNWq2CDCM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как побороть прокрастинацию (15 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-M0C-0vDcU6o@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261115T110500
+DTEND;TZID=Europe/Moscow:20261115T113000
+SUMMARY:▶️ Как побеждать в переговорах (10 мин)
+URL:https://www.youtube.com/watch?v=M0C-0vDcU6o
+DESCRIPTION:https://www.youtube.com/watch?v=M0C-0vDcU6o
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как побеждать в переговорах (10 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-5Nd80oV3rmU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261115T113000
+DTEND;TZID=Europe/Moscow:20261115T115000
+SUMMARY:▶️ Говори уверенно: техника лидера (8 мин)
+URL:https://www.youtube.com/watch?v=5Nd80oV3rmU
+DESCRIPTION:https://www.youtube.com/watch?v=5Nd80oV3rmU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Говори уверенно: техника лидера (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-Ok4lzaw3Dto@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261115T161500
+DTEND;TZID=Europe/Moscow:20261115T163000
+SUMMARY:▶️ 3 навыка хорошего руководителя (6 мин)
+URL:https://www.youtube.com/watch?v=Ok4lzaw3Dto
+DESCRIPTION:https://www.youtube.com/watch?v=Ok4lzaw3Dto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 3 навыка хорошего руководителя (6 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-xNKEEDSFaD8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261115T182500
+DTEND;TZID=Europe/Moscow:20261115T185000
+SUMMARY:▶️ Гарвардская школа переговоров (12 мин)
+URL:https://www.youtube.com/watch?v=xNKEEDSFaD8
+DESCRIPTION:https://www.youtube.com/watch?v=xNKEEDSFaD8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Гарвардская школа переговоров (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-Xu5UgsNWUmY@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261115T185000
+DTEND;TZID=Europe/Moscow:20261115T193000
+SUMMARY:▶️ 10 правил ведения переговоров (18 мин)
+URL:https://www.youtube.com/watch?v=Xu5UgsNWUmY
+DESCRIPTION:https://www.youtube.com/watch?v=Xu5UgsNWUmY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 10 правил ведения переговоров (18 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-3dU1FGhS5ps@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261115T194000
+DTEND;TZID=Europe/Moscow:20261115T202000
+SUMMARY:▶️ Как чётко и ясно выражать свои мысли (19 мин)
+URL:https://www.youtube.com/watch?v=3dU1FGhS5ps
+DESCRIPTION:https://www.youtube.com/watch?v=3dU1FGhS5ps
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как чётко и ясно выражать свои мысли (19 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261116T171000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T171000
+DTEND;TZID=Europe/Moscow:20261116T174000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-pTXlS6VxY6A@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T072000
+DTEND;TZID=Europe/Moscow:20261116T075500
+SUMMARY:▶️ Как говорить уверенно: упражнения (15 мин)
+URL:https://www.youtube.com/watch?v=pTXlS6VxY6A
+DESCRIPTION:https://www.youtube.com/watch?v=pTXlS6VxY6A
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как говорить уверенно: упражнения (15 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-zzNIZO4tUwA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T075500
+DTEND;TZID=Europe/Moscow:20261116T082000
+SUMMARY:▶️ Как правильно объяснять (11 мин)
+URL:https://www.youtube.com/watch?v=zzNIZO4tUwA
+DESCRIPTION:https://www.youtube.com/watch?v=zzNIZO4tUwA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как правильно объяснять (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-JUcZ5FWOq2s@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T082000
+DTEND;TZID=Europe/Moscow:20261116T084500
+SUMMARY:▶️ Как понятно объяснить ребёнку сложное (12 мин)
+URL:https://www.youtube.com/watch?v=JUcZ5FWOq2s
+DESCRIPTION:https://www.youtube.com/watch?v=JUcZ5FWOq2s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как понятно объяснить ребёнку сложное (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-URjEMb2gZS8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T084500
+DTEND;TZID=Europe/Moscow:20261116T092000
+SUMMARY:▶️ Как делегировать задачи в небольшой команде (15 мин)
+URL:https://www.youtube.com/watch?v=URjEMb2gZS8
+DESCRIPTION:https://www.youtube.com/watch?v=URjEMb2gZS8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как делегировать задачи в небольшой команде (15 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-cgQllvWPhEM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T092000
+DTEND;TZID=Europe/Moscow:20261116T095000
+SUMMARY:▶️ 5 секретов найма правильных сотрудников (13 мин)
+URL:https://www.youtube.com/watch?v=cgQllvWPhEM
+DESCRIPTION:https://www.youtube.com/watch?v=cgQllvWPhEM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 5 секретов найма правильных сотрудников (13 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-rZrO3oRbzW4@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T174000
+DTEND;TZID=Europe/Moscow:20261116T180000
+SUMMARY:▶️ Как найти\, нанять и удержать человека в команде (9 мин)
+URL:https://www.youtube.com/watch?v=rZrO3oRbzW4
+DESCRIPTION:https://www.youtube.com/watch?v=rZrO3oRbzW4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как найти\, нанять и удержать человека в команде (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-W3llhoqg_Eo@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T180000
+DTEND;TZID=Europe/Moscow:20261116T182000
+SUMMARY:▶️ Что такое эмоциональный интеллект (8 мин)
+URL:https://www.youtube.com/watch?v=W3llhoqg_Eo
+DESCRIPTION:https://www.youtube.com/watch?v=W3llhoqg_Eo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Что такое эмоциональный интеллект (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-AXVu7brOG_c@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T182000
+DTEND;TZID=Europe/Moscow:20261116T184000
+SUMMARY:▶️ 4 шага развития эмоционального интеллекта (9 мин)
+URL:https://www.youtube.com/watch?v=AXVu7brOG_c
+DESCRIPTION:https://www.youtube.com/watch?v=AXVu7brOG_c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 4 шага развития эмоционального интеллекта (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-5m-rDdSgWnk@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T210000
+DTEND;TZID=Europe/Moscow:20261116T214000
+SUMMARY:▶️ Критическое мышление: как фильтровать информацию (17 мин)
+URL:https://www.youtube.com/watch?v=5m-rDdSgWnk
+DESCRIPTION:https://www.youtube.com/watch?v=5m-rDdSgWnk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Критическое мышление: как фильтровать информацию (17 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261117T125000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T125000
+DTEND;TZID=Europe/Moscow:20261117T132000
+SUMMARY:🍽 Обед
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261117T173000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T173000
+DTEND;TZID=Europe/Moscow:20261117T180000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-zhIzmtMlIi4@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T072000
+DTEND;TZID=Europe/Moscow:20261117T074500
+SUMMARY:▶️ Критическое мышление (12 мин)
+URL:https://www.youtube.com/watch?v=zhIzmtMlIi4
+DESCRIPTION:https://www.youtube.com/watch?v=zhIzmtMlIi4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Критическое мышление (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-BIKfkRol5iA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T074500
+DTEND;TZID=Europe/Moscow:20261117T081500
+SUMMARY:▶️ Эффективное чтение: как получать пользу от книг (13 мин)
+URL:https://www.youtube.com/watch?v=BIKfkRol5iA
+DESCRIPTION:https://www.youtube.com/watch?v=BIKfkRol5iA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Эффективное чтение: как получать пользу от книг (13 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-9iaLW1L5GUU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T081500
+DTEND;TZID=Europe/Moscow:20261117T084500
+SUMMARY:▶️ Зачем на самом деле читать книги (13 мин)
+URL:https://www.youtube.com/watch?v=9iaLW1L5GUU
+DESCRIPTION:https://www.youtube.com/watch?v=9iaLW1L5GUU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Зачем на самом деле читать книги (13 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261118T125500@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261118T125500
+DTEND;TZID=Europe/Moscow:20261118T132500
+SUMMARY:🍽 Обед
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261118T170500@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261118T170500
+DTEND;TZID=Europe/Moscow:20261118T173500
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261119T171000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T171000
+DTEND;TZID=Europe/Moscow:20261119T174000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261120T171000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T171000
+DTEND;TZID=Europe/Moscow:20261120T174000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261121T181500@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261121T181500
+DTEND;TZID=Europe/Moscow:20261121T184500
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261122T170000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T170000
+DTEND;TZID=Europe/Moscow:20261122T173000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261123T171000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T171000
+DTEND;TZID=Europe/Moscow:20261123T174000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261124T173000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261124T173000
+DTEND;TZID=Europe/Moscow:20261124T180000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261125T125500@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261125T125500
+DTEND;TZID=Europe/Moscow:20261125T132500
+SUMMARY:🍽 Обед
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261125T170500@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261125T170500
+DTEND;TZID=Europe/Moscow:20261125T173500
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meal-20261126T171000@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261126T171000
+DTEND;TZID=Europe/Moscow:20261126T174000
+SUMMARY:🍽 Ужин
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-JdmstL31W_U@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T095000
+DTEND;TZID=Europe/Moscow:20261116T100500
+SUMMARY:▶️ 4 формулы продающих текстов (5 мин)
+URL:https://www.youtube.com/watch?v=JdmstL31W_U
+DESCRIPTION:https://www.youtube.com/watch?v=JdmstL31W_U
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 4 формулы продающих текстов (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-F40699WqNeQ@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261116T184000
+DTEND;TZID=Europe/Moscow:20261116T190000
+SUMMARY:▶️ Как удерживать внимание учеников (8 мин)
+URL:https://www.youtube.com/watch?v=F40699WqNeQ
+DESCRIPTION:https://www.youtube.com/watch?v=F40699WqNeQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как удерживать внимание учеников (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-mfEOqqkU7J8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T084500
+DTEND;TZID=Europe/Moscow:20261117T091500
+SUMMARY:▶️ Как репетитору собрать группы (14 мин)
+URL:https://www.youtube.com/watch?v=mfEOqqkU7J8
+DESCRIPTION:https://www.youtube.com/watch?v=mfEOqqkU7J8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору собрать группы (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-5AhEFNos0LY@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T091500
+DTEND;TZID=Europe/Moscow:20261117T093500
+SUMMARY:▶️ Как репетитору набрать учеников за неделю (9 мин)
+URL:https://www.youtube.com/watch?v=5AhEFNos0LY
+DESCRIPTION:https://www.youtube.com/watch?v=5AhEFNos0LY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как репетитору набрать учеников за неделю (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-zLjsOmE4VIM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T093500
+DTEND;TZID=Europe/Moscow:20261117T100500
+SUMMARY:▶️ Как изучать маркетинг с нуля (14 мин)
+URL:https://www.youtube.com/watch?v=zLjsOmE4VIM
+DESCRIPTION:https://www.youtube.com/watch?v=zLjsOmE4VIM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как изучать маркетинг с нуля (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-h3TaQBsopXk@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T100500
+DTEND;TZID=Europe/Moscow:20261117T104000
+SUMMARY:▶️ Методы продвижения для экспертов (17 мин)
+URL:https://www.youtube.com/watch?v=h3TaQBsopXk
+DESCRIPTION:https://www.youtube.com/watch?v=h3TaQBsopXk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Методы продвижения для экспертов (17 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-5Y54GKdcXTA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T104000
+DTEND;TZID=Europe/Moscow:20261117T112000
+SUMMARY:▶️ Как писать продающие тексты без манипуляций (17 мин)
+URL:https://www.youtube.com/watch?v=5Y54GKdcXTA
+DESCRIPTION:https://www.youtube.com/watch?v=5Y54GKdcXTA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как писать продающие тексты без манипуляций (17 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-1Sk1J6EAK9g@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T112000
+DTEND;TZID=Europe/Moscow:20261117T113500
+SUMMARY:▶️ Как вести Telegram-канал эксперту (7 мин)
+URL:https://www.youtube.com/watch?v=1Sk1J6EAK9g
+DESCRIPTION:https://www.youtube.com/watch?v=1Sk1J6EAK9g
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как вести Telegram-канал эксперту (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-LNrb2jTabik@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T113500
+DTEND;TZID=Europe/Moscow:20261117T115000
+SUMMARY:▶️ 5 правил Telegram-канала для экспертного бизнеса (7 мин)
+URL:https://www.youtube.com/watch?v=LNrb2jTabik
+DESCRIPTION:https://www.youtube.com/watch?v=LNrb2jTabik
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 5 правил Telegram-канала для экспертного бизнеса (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-nsgxUaSOU84@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T115000
+DTEND;TZID=Europe/Moscow:20261117T120500
+SUMMARY:▶️ Как повысить цену и не растерять клиентов (7 мин)
+URL:https://www.youtube.com/watch?v=nsgxUaSOU84
+DESCRIPTION:https://www.youtube.com/watch?v=nsgxUaSOU84
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как повысить цену и не растерять клиентов (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-TXGSqx-MgGM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T120500
+DTEND;TZID=Europe/Moscow:20261117T122000
+SUMMARY:▶️ Жим гантелей лёжа: 3 варианта (6 мин)
+URL:https://www.youtube.com/watch?v=TXGSqx-MgGM
+DESCRIPTION:https://www.youtube.com/watch?v=TXGSqx-MgGM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Жим гантелей лёжа: 3 варианта (6 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-xBlQOsv3pPM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T132000
+DTEND;TZID=Europe/Moscow:20261117T134000
+SUMMARY:▶️ Как увеличить средний чек (9 мин)
+URL:https://www.youtube.com/watch?v=xBlQOsv3pPM
+DESCRIPTION:https://www.youtube.com/watch?v=xBlQOsv3pPM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как увеличить средний чек (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-TRBXY4je3Os@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T134000
+DTEND;TZID=Europe/Moscow:20261117T135000
+SUMMARY:▶️ Как быстро справляться со стрессом (4 мин)
+URL:https://www.youtube.com/watch?v=TRBXY4je3Os
+DESCRIPTION:https://www.youtube.com/watch?v=TRBXY4je3Os
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как быстро справляться со стрессом (4 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-LQR80N_cxR4@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T161000
+DTEND;TZID=Europe/Moscow:20261117T163000
+SUMMARY:▶️ Ошибки в жиме лёжа — Джефф Кавальер (9 мин)
+URL:https://www.youtube.com/watch?v=LQR80N_cxR4
+DESCRIPTION:https://www.youtube.com/watch?v=LQR80N_cxR4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Ошибки в жиме лёжа — Джефф Кавальер (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-9Uy7eelQxMo@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T163000
+DTEND;TZID=Europe/Moscow:20261117T164500
+SUMMARY:▶️ Схема увеличения подтягиваний (7 мин)
+URL:https://www.youtube.com/watch?v=9Uy7eelQxMo
+DESCRIPTION:https://www.youtube.com/watch?v=9Uy7eelQxMo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Схема увеличения подтягиваний (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-eZn5sePihgg@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T200000
+DTEND;TZID=Europe/Moscow:20261117T202500
+SUMMARY:▶️ Подтягивания с нуля (11 мин)
+URL:https://www.youtube.com/watch?v=eZn5sePihgg
+DESCRIPTION:https://www.youtube.com/watch?v=eZn5sePihgg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Подтягивания с нуля (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-diEkFaHklJ0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T204500
+DTEND;TZID=Europe/Moscow:20261117T210000
+SUMMARY:▶️ Безграничная память: как запоминать (5 мин)
+URL:https://www.youtube.com/watch?v=diEkFaHklJ0
+DESCRIPTION:https://www.youtube.com/watch?v=diEkFaHklJ0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Безграничная память: как запоминать (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-D3Ysvoz7I2E@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261118T072000
+DTEND;TZID=Europe/Moscow:20261118T075500
+SUMMARY:▶️ Растяжка на каждый день\, 15 минут (15 мин)
+URL:https://www.youtube.com/watch?v=D3Ysvoz7I2E
+DESCRIPTION:https://www.youtube.com/watch?v=D3Ysvoz7I2E
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Растяжка на каждый день\, 15 минут (15 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-vN-b5DHzF14@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261118T075500
+DTEND;TZID=Europe/Moscow:20261118T082000
+SUMMARY:▶️ Мобильность грудного отдела и таза\, 10 минут (11 мин)
+URL:https://www.youtube.com/watch?v=vN-b5DHzF14
+DESCRIPTION:https://www.youtube.com/watch?v=vN-b5DHzF14
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Мобильность грудного отдела и таза\, 10 минут (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-gKXJQLg1-cg@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261118T132500
+DTEND;TZID=Europe/Moscow:20261118T135000
+SUMMARY:▶️ Три типа усталости: как отдохнуть (11 мин)
+URL:https://www.youtube.com/watch?v=gKXJQLg1-cg
+DESCRIPTION:https://www.youtube.com/watch?v=gKXJQLg1-cg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Три типа усталости: как отдохнуть (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-FihKZFx9ui8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261118T173500
+DTEND;TZID=Europe/Moscow:20261118T181500
+SUMMARY:▶️ 5 уровней отдыха и восстановления (18 мин)
+URL:https://www.youtube.com/watch?v=FihKZFx9ui8
+DESCRIPTION:https://www.youtube.com/watch?v=FihKZFx9ui8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 5 уровней отдыха и восстановления (18 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-GeuGNZXtA3s@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261118T181500
+DTEND;TZID=Europe/Moscow:20261118T183500
+SUMMARY:▶️ Гайд на отдых и восстановление (8 мин)
+URL:https://www.youtube.com/watch?v=GeuGNZXtA3s
+DESCRIPTION:https://www.youtube.com/watch?v=GeuGNZXtA3s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Гайд на отдых и восстановление (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-1-a_E8IN40I@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261118T183500
+DTEND;TZID=Europe/Moscow:20261118T185500
+SUMMARY:▶️ Управляй вниманием\, а не временем (9 мин)
+URL:https://www.youtube.com/watch?v=1-a_E8IN40I
+DESCRIPTION:https://www.youtube.com/watch?v=1-a_E8IN40I
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Управляй вниманием\, а не временем (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-gF3lp8VbTyM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T072000
+DTEND;TZID=Europe/Moscow:20261119T075000
+SUMMARY:▶️ Система планирования\, экономящая 20 часов в неделю (13 мин)
+URL:https://www.youtube.com/watch?v=gF3lp8VbTyM
+DESCRIPTION:https://www.youtube.com/watch?v=gF3lp8VbTyM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Система планирования\, экономящая 20 часов в неделю (13 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-BbXg_GjL3m0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T075000
+DTEND;TZID=Europe/Moscow:20261119T082500
+SUMMARY:▶️ Планирование дня и недели по тайм-блокингу (15 мин)
+URL:https://www.youtube.com/watch?v=BbXg_GjL3m0
+DESCRIPTION:https://www.youtube.com/watch?v=BbXg_GjL3m0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Планирование дня и недели по тайм-блокингу (15 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-L-ntjklkVtk@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T082500
+DTEND;TZID=Europe/Moscow:20261119T090000
+SUMMARY:▶️ «Атомные привычки» за 15 минут (15 мин)
+URL:https://www.youtube.com/watch?v=L-ntjklkVtk
+DESCRIPTION:https://www.youtube.com/watch?v=L-ntjklkVtk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ «Атомные привычки» за 15 минут (15 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-73e8RHObSHc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T090000
+DTEND;TZID=Europe/Moscow:20261119T092000
+SUMMARY:▶️ «Атомные привычки» на самом деле не про привычки (8 мин)
+URL:https://www.youtube.com/watch?v=73e8RHObSHc
+DESCRIPTION:https://www.youtube.com/watch?v=73e8RHObSHc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ «Атомные привычки» на самом деле не про привычки (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-ROKGXp3zCEo@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T092000
+DTEND;TZID=Europe/Moscow:20261119T094000
+SUMMARY:▶️ Как правильно ставить цели (8 мин)
+URL:https://www.youtube.com/watch?v=ROKGXp3zCEo
+DESCRIPTION:https://www.youtube.com/watch?v=ROKGXp3zCEo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как правильно ставить цели (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-77zydLbrkFA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T094000
+DTEND;TZID=Europe/Moscow:20261119T095500
+SUMMARY:▶️ Брайан Трейси: план достижения цели (7 мин)
+URL:https://www.youtube.com/watch?v=77zydLbrkFA
+DESCRIPTION:https://www.youtube.com/watch?v=77zydLbrkFA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Брайан Трейси: план достижения цели (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-hriYLsbWJDc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T095500
+DTEND;TZID=Europe/Moscow:20261119T102000
+SUMMARY:▶️ База про деньги в РФ (11 мин)
+URL:https://www.youtube.com/watch?v=hriYLsbWJDc
+DESCRIPTION:https://www.youtube.com/watch?v=hriYLsbWJDc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ База про деньги в РФ (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-BBYv9sKqdHc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T102000
+DTEND;TZID=Europe/Moscow:20261119T103500
+SUMMARY:▶️ Юнит-экономика за 5 минут (5 мин)
+URL:https://www.youtube.com/watch?v=BBYv9sKqdHc
+DESCRIPTION:https://www.youtube.com/watch?v=BBYv9sKqdHc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Юнит-экономика за 5 минут (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-jWAineywlO8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T174000
+DTEND;TZID=Europe/Moscow:20261119T175000
+SUMMARY:▶️ Инфляция и ключевая ставка (4 мин)
+URL:https://www.youtube.com/watch?v=jWAineywlO8
+DESCRIPTION:https://www.youtube.com/watch?v=jWAineywlO8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Инфляция и ключевая ставка (4 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-oaECpwyfz2w@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T200500
+DTEND;TZID=Europe/Moscow:20261119T204500
+SUMMARY:▶️ Кризис\, инфляция и ключевая ставка (18 мин)
+URL:https://www.youtube.com/watch?v=oaECpwyfz2w
+DESCRIPTION:https://www.youtube.com/watch?v=oaECpwyfz2w
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Кризис\, инфляция и ключевая ставка (18 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-CSX2c8tdwqk@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261119T204500
+DTEND;TZID=Europe/Moscow:20261119T212000
+SUMMARY:▶️ Психология влияния (часть 1) (15 мин)
+URL:https://www.youtube.com/watch?v=CSX2c8tdwqk
+DESCRIPTION:https://www.youtube.com/watch?v=CSX2c8tdwqk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Психология влияния (часть 1) (15 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-_0sWt7XMPm8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T072000
+DTEND;TZID=Europe/Moscow:20261120T074000
+SUMMARY:▶️ Психология влияния Чалдини за 10 минут (9 мин)
+URL:https://www.youtube.com/watch?v=_0sWt7XMPm8
+DESCRIPTION:https://www.youtube.com/watch?v=_0sWt7XMPm8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Психология влияния Чалдини за 10 минут (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-cZqyM8EpPTU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T074000
+DTEND;TZID=Europe/Moscow:20261120T080000
+SUMMARY:▶️ Психолог о подростковой агрессии (9 мин)
+URL:https://www.youtube.com/watch?v=cZqyM8EpPTU
+DESCRIPTION:https://www.youtube.com/watch?v=cZqyM8EpPTU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Психолог о подростковой агрессии (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-_mLaLm1HBxQ@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T080000
+DTEND;TZID=Europe/Moscow:20261120T083000
+SUMMARY:▶️ Как найти общий язык с ребёнком (13 мин)
+URL:https://www.youtube.com/watch?v=_mLaLm1HBxQ
+DESCRIPTION:https://www.youtube.com/watch?v=_mLaLm1HBxQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как найти общий язык с ребёнком (13 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-ceHkZYBlxi0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T083000
+DTEND;TZID=Europe/Moscow:20261120T084500
+SUMMARY:▶️ Как мотивировать учеников (7 мин)
+URL:https://www.youtube.com/watch?v=ceHkZYBlxi0
+DESCRIPTION:https://www.youtube.com/watch?v=ceHkZYBlxi0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как мотивировать учеников (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-krPS79emD_E@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T084500
+DTEND;TZID=Europe/Moscow:20261120T092000
+SUMMARY:▶️ Как мотивировать ребёнка учиться (17 мин)
+URL:https://www.youtube.com/watch?v=krPS79emD_E
+DESCRIPTION:https://www.youtube.com/watch?v=krPS79emD_E
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как мотивировать ребёнка учиться (17 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-jms8wIewPe0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T092000
+DTEND;TZID=Europe/Moscow:20261120T095000
+SUMMARY:▶️ Как научить ребёнка учиться (13 мин)
+URL:https://www.youtube.com/watch?v=jms8wIewPe0
+DESCRIPTION:https://www.youtube.com/watch?v=jms8wIewPe0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как научить ребёнка учиться (13 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-ZDdGcA_780s@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T095000
+DTEND;TZID=Europe/Moscow:20261120T100500
+SUMMARY:▶️ Сарафанное радио: как привлекать клиентов (5 мин)
+URL:https://www.youtube.com/watch?v=ZDdGcA_780s
+DESCRIPTION:https://www.youtube.com/watch?v=ZDdGcA_780s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Сарафанное радио: как привлекать клиентов (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-biaFpTsu3E8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T100500
+DTEND;TZID=Europe/Moscow:20261120T102000
+SUMMARY:▶️ Как получать клиентов по рекомендациям (6 мин)
+URL:https://www.youtube.com/watch?v=biaFpTsu3E8
+DESCRIPTION:https://www.youtube.com/watch?v=biaFpTsu3E8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как получать клиентов по рекомендациям (6 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-n3SlkSnZFMU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T174000
+DTEND;TZID=Europe/Moscow:20261120T180000
+SUMMARY:▶️ Как правильно собирать отзывы клиентов (8 мин)
+URL:https://www.youtube.com/watch?v=n3SlkSnZFMU
+DESCRIPTION:https://www.youtube.com/watch?v=n3SlkSnZFMU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как правильно собирать отзывы клиентов (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-2bmjn5aNq_w@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T180000
+DTEND;TZID=Europe/Moscow:20261120T183000
+SUMMARY:▶️ 6 шагов к сильному личному бренду (14 мин)
+URL:https://www.youtube.com/watch?v=2bmjn5aNq_w
+DESCRIPTION:https://www.youtube.com/watch?v=2bmjn5aNq_w
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 6 шагов к сильному личному бренду (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-JIL4g9u7jDo@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T183000
+DTEND;TZID=Europe/Moscow:20261120T185000
+SUMMARY:▶️ Что такое личный бренд (8 мин)
+URL:https://www.youtube.com/watch?v=JIL4g9u7jDo
+DESCRIPTION:https://www.youtube.com/watch?v=JIL4g9u7jDo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Что такое личный бренд (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-4pmdizoEBxA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T185000
+DTEND;TZID=Europe/Moscow:20261120T190000
+SUMMARY:▶️ Мышление роста и фиксированное мышление (5 мин)
+URL:https://www.youtube.com/watch?v=4pmdizoEBxA
+DESCRIPTION:https://www.youtube.com/watch?v=4pmdizoEBxA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Мышление роста и фиксированное мышление (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-JkErRT5_9N8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261120T213000
+DTEND;TZID=Europe/Moscow:20261120T215000
+SUMMARY:▶️ Почему закрываются компании: топ-5 причин (7 мин)
+URL:https://www.youtube.com/watch?v=JkErRT5_9N8
+DESCRIPTION:https://www.youtube.com/watch?v=JkErRT5_9N8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Почему закрываются компании: топ-5 причин (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-8uoPaptkgrc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261121T121500
+DTEND;TZID=Europe/Moscow:20261121T123500
+SUMMARY:▶️ 5 ошибок начинающих предпринимателей (9 мин)
+URL:https://www.youtube.com/watch?v=8uoPaptkgrc
+DESCRIPTION:https://www.youtube.com/watch?v=8uoPaptkgrc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 5 ошибок начинающих предпринимателей (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-JzGDsl0DpAY@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261121T184500
+DTEND;TZID=Europe/Moscow:20261121T190000
+SUMMARY:▶️ Нейробиолог о мотивации (7 мин)
+URL:https://www.youtube.com/watch?v=JzGDsl0DpAY
+DESCRIPTION:https://www.youtube.com/watch?v=JzGDsl0DpAY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Нейробиолог о мотивации (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-uI96yxDhzUU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261121T204500
+DTEND;TZID=Europe/Moscow:20261121T210000
+SUMMARY:▶️ Налоги на фрилансе: учёт без ошибок (6 мин)
+URL:https://www.youtube.com/watch?v=uI96yxDhzUU
+DESCRIPTION:https://www.youtube.com/watch?v=uI96yxDhzUU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Налоги на фрилансе: учёт без ошибок (6 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-_hetsmgLYBU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T072000
+DTEND;TZID=Europe/Moscow:20261122T080000
+SUMMARY:▶️ Как продавать в переписке: тактики и фразы (19 мин)
+URL:https://www.youtube.com/watch?v=_hetsmgLYBU
+DESCRIPTION:https://www.youtube.com/watch?v=_hetsmgLYBU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как продавать в переписке: тактики и фразы (19 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-ZW1gsrNBy0U@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T102500
+DTEND;TZID=Europe/Moscow:20261122T105000
+SUMMARY:▶️ Продажи в мессенджерах и соцсетях (10 мин)
+URL:https://www.youtube.com/watch?v=ZW1gsrNBy0U
+DESCRIPTION:https://www.youtube.com/watch?v=ZW1gsrNBy0U
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Продажи в мессенджерах и соцсетях (10 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-K2h-CcS1EBY@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T105000
+DTEND;TZID=Europe/Moscow:20261122T112000
+SUMMARY:▶️ 11 неудачных фраз в продажах (12 мин)
+URL:https://www.youtube.com/watch?v=K2h-CcS1EBY
+DESCRIPTION:https://www.youtube.com/watch?v=K2h-CcS1EBY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 11 неудачных фраз в продажах (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-LzhXyxCUdI0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T112000
+DTEND;TZID=Europe/Moscow:20261122T115000
+SUMMARY:▶️ Присед: полный гайд по технике (12 мин)
+URL:https://www.youtube.com/watch?v=LzhXyxCUdI0
+DESCRIPTION:https://www.youtube.com/watch?v=LzhXyxCUdI0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Присед: полный гайд по технике (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-ecCTnybTJiA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T161500
+DTEND;TZID=Europe/Moscow:20261122T165000
+SUMMARY:▶️ 10 ошибок начинающего предпринимателя (17 мин)
+URL:https://www.youtube.com/watch?v=ecCTnybTJiA
+DESCRIPTION:https://www.youtube.com/watch?v=ecCTnybTJiA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 10 ошибок начинающего предпринимателя (17 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-yjiXBRh6H9k@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T173000
+DTEND;TZID=Europe/Moscow:20261122T175500
+SUMMARY:▶️ Тренировка ног: научный подход (12 мин)
+URL:https://www.youtube.com/watch?v=yjiXBRh6H9k
+DESCRIPTION:https://www.youtube.com/watch?v=yjiXBRh6H9k
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Тренировка ног: научный подход (12 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-VhEWjcq8-dk@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T175500
+DTEND;TZID=Europe/Moscow:20261122T183000
+SUMMARY:▶️ Как есть для набора мышц (15 мин)
+URL:https://www.youtube.com/watch?v=VhEWjcq8-dk
+DESCRIPTION:https://www.youtube.com/watch?v=VhEWjcq8-dk
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как есть для набора мышц (15 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-uOA2avTYkGE@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T183000
+DTEND;TZID=Europe/Moscow:20261122T185500
+SUMMARY:▶️ Рост мышц без жира (10 мин)
+URL:https://www.youtube.com/watch?v=uOA2avTYkGE
+DESCRIPTION:https://www.youtube.com/watch?v=uOA2avTYkGE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Рост мышц без жира (10 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-zv4MmZspbt4@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T185500
+DTEND;TZID=Europe/Moscow:20261122T191500
+SUMMARY:▶️ Как сон влияет на рост мышц (8 мин)
+URL:https://www.youtube.com/watch?v=zv4MmZspbt4
+DESCRIPTION:https://www.youtube.com/watch?v=zv4MmZspbt4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как сон влияет на рост мышц (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-5mOpoYnXxpE@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T200000
+DTEND;TZID=Europe/Moscow:20261122T202000
+SUMMARY:▶️ Красивая спина и осанка: 8 минут (7 мин)
+URL:https://www.youtube.com/watch?v=5mOpoYnXxpE
+DESCRIPTION:https://www.youtube.com/watch?v=5mOpoYnXxpE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Красивая спина и осанка: 8 минут (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-lPDnh_gEC_I@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T072000
+DTEND;TZID=Europe/Moscow:20261123T074000
+SUMMARY:▶️ Как преодолеть зависимость от телефона (8 мин)
+URL:https://www.youtube.com/watch?v=lPDnh_gEC_I
+DESCRIPTION:https://www.youtube.com/watch?v=lPDnh_gEC_I
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как преодолеть зависимость от телефона (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-bDwcPWk4nC0@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T074000
+DTEND;TZID=Europe/Moscow:20261123T080000
+SUMMARY:▶️ Как побороть зависимость от телефона (8 мин)
+URL:https://www.youtube.com/watch?v=bDwcPWk4nC0
+DESCRIPTION:https://www.youtube.com/watch?v=bDwcPWk4nC0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как побороть зависимость от телефона (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-B-RHTmHLHiQ@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T080000
+DTEND;TZID=Europe/Moscow:20261123T083000
+SUMMARY:▶️ «Цифровой минимализм» Кэла Ньюпорта (13 мин)
+URL:https://www.youtube.com/watch?v=B-RHTmHLHiQ
+DESCRIPTION:https://www.youtube.com/watch?v=B-RHTmHLHiQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ «Цифровой минимализм» Кэла Ньюпорта (13 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-cgaktoUoDVQ@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T083000
+DTEND;TZID=Europe/Moscow:20261123T085500
+SUMMARY:▶️ Второй мозг: метод Zettelkasten (10 мин)
+URL:https://www.youtube.com/watch?v=cgaktoUoDVQ
+DESCRIPTION:https://www.youtube.com/watch?v=cgaktoUoDVQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Второй мозг: метод Zettelkasten (10 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-tZWS1MFyxWc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T085500
+DTEND;TZID=Europe/Moscow:20261123T091500
+SUMMARY:▶️ Как научиться отказывать без вины (9 мин)
+URL:https://www.youtube.com/watch?v=tZWS1MFyxWc
+DESCRIPTION:https://www.youtube.com/watch?v=tZWS1MFyxWc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как научиться отказывать без вины (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-3rHwh0urObM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T091500
+DTEND;TZID=Europe/Moscow:20261123T094000
+SUMMARY:▶️ Как говорить «нет»: техники вежливого отказа (11 мин)
+URL:https://www.youtube.com/watch?v=3rHwh0urObM
+DESCRIPTION:https://www.youtube.com/watch?v=3rHwh0urObM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как говорить «нет»: техники вежливого отказа (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-vIMNB0zYnOM@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T094000
+DTEND;TZID=Europe/Moscow:20261123T100500
+SUMMARY:▶️ Как побороть страх публичных выступлений (11 мин)
+URL:https://www.youtube.com/watch?v=vIMNB0zYnOM
+DESCRIPTION:https://www.youtube.com/watch?v=vIMNB0zYnOM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как побороть страх публичных выступлений (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-ewJi45Q0iLs@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T174000
+DTEND;TZID=Europe/Moscow:20261123T180000
+SUMMARY:▶️ Секреты эффективного запоминания (9 мин)
+URL:https://www.youtube.com/watch?v=ewJi45Q0iLs
+DESCRIPTION:https://www.youtube.com/watch?v=ewJi45Q0iLs
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Секреты эффективного запоминания (9 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-UE3IbjR0LQ8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T180000
+DTEND;TZID=Europe/Moscow:20261123T182000
+SUMMARY:▶️ Как открыть онлайн-школу с нуля (8 мин)
+URL:https://www.youtube.com/watch?v=UE3IbjR0LQ8
+DESCRIPTION:https://www.youtube.com/watch?v=UE3IbjR0LQ8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как открыть онлайн-школу с нуля (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-VqRrMTRJI1M@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T182000
+DTEND;TZID=Europe/Moscow:20261123T184500
+SUMMARY:▶️ Не думал\, что фриланс это так сложно (11 мин)
+URL:https://www.youtube.com/watch?v=VqRrMTRJI1M
+DESCRIPTION:https://www.youtube.com/watch?v=VqRrMTRJI1M
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Не думал\, что фриланс это так сложно (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
 END:VCALENDAR
