@@ -54,7 +54,8 @@ const studyCount = lines.length;
 const header = lines.slice(0, 18);
 // --- Зал: 4 тренировки по 2 часа; если накладывается на пару — пропускаем ---
 const GYM = { 2: ["14:00", "Зал — верх"], 3: ["14:00", "Зал — низ"], 6: ["09:00", "Зал — верх"], 0: ["12:00", "Зал — низ"] };
-const GYM_EXTRA = [["2026-11-13", "15:45", "Зал — низ (перенос со среды)"], ["2026-12-01", "09:00", "Зал — верх (утром, до пар)"], ["2026-11-28", "08:30", "Зал — верх (раньше: пары с 11:30)"], ["2026-12-12", "08:30", "Зал — верх (раньше: пары с 11:30)"]];
+const GYM_SKIP = ["2026-11-07"];
+const GYM_EXTRA = [["2026-11-07", "13:00", "Зал — верх (перенос с 9:00)"], ["2026-11-13", "15:45", "Зал — низ (перенос со среды)"], ["2026-12-01", "09:00", "Зал — верх (утром, до пар)"], ["2026-11-28", "08:30", "Зал — верх (раньше: пары с 11:30)"], ["2026-12-12", "08:30", "Зал — верх (раньше: пары с 11:30)"]];
 const ROAD_BEFORE = 50, ROAD_AFTER = 40; // минут на дорогу до зала и от зала до учёбы
 const busy = events.filter(e => !e.IsCancelled && !/пересдача|показ работ/i.test(e.Subject)).map(e => [new Date(e.Start), new Date(e.End)]);
 const WORKOUTS = {
@@ -99,7 +100,7 @@ const gymEvent = (date, time, title) => {
     fold(`SUMMARY:🏋️ ${esc(title)}`), fold(`DESCRIPTION:${esc(plan(date, title))}`), "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Зал через час", "TRIGGER:-PT1H", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок", "TRIGGER;RELATED=END:-PT5M", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🥤 Выпей протеин", "TRIGGER;RELATED=END:PT0M", "END:VALARM", "END:VEVENT");
 };
 for (let d = new Date(Math.max(monday, new Date("2026-11-06"))); d < end; d.setDate(d.getDate() + 1)) {
-  const g = GYM[d.getDay()]; if (g) gymEvent(iso(d), g[0], g[1]);
+  const g = GYM[d.getDay()]; if (g && !GYM_SKIP.includes(iso(d))) gymEvent(iso(d), g[0], g[1]);
 }
 for (const [date, time, title] of GYM_EXTRA) gymEvent(date, time, title);
 
