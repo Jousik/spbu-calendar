@@ -82,7 +82,7 @@ const plan = (date, title) => {
   return [`${key}. ${phase}`, "Разминка 10 минут + 2 разминочных подхода в первом упражнении", "",
     ...WORKOUTS[key].map(([n, r], i) => `${i + 1}. ${n} — ${sets}×${r}${kg(n, week, deload)}`), "",
     "Отдых: 2–3 мин в базовых, 1–1,5 мин в остальных. Не успеваешь — убирай последнее упражнение. Острая боль — сразу стоп.",
-    "В конце: записать веса и повторы в дневник тренировок."].join("\n");
+    "В конце: записать веса и повторы в дневник тренировок.", "После зала: протеин — 30 г порошка на 250–300 мл воды или молока."].join("\n");
 };
 const gymEvent = (date, time, title) => {
   const s = new Date(`${date}T${time}:00`), en = new Date(s.getTime() + 2 * 3600e3);
@@ -90,7 +90,7 @@ const gymEvent = (date, time, title) => {
   const f = x => `${iso(x).replace(/-/g, "")}T${pad(x.getHours())}${pad(x.getMinutes())}00`;
   lines.push("BEGIN:VEVENT", `UID:gym-${date}@spbu-25b05`, `DTSTAMP:${stamp}`,
     `DTSTART;TZID=Europe/Moscow:${f(s)}`, `DTEND;TZID=Europe/Moscow:${f(en)}`,
-    fold(`SUMMARY:🏋️ ${esc(title)}`), fold(`DESCRIPTION:${esc(plan(date, title))}`), "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Зал через час", "TRIGGER:-PT1H", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок", "TRIGGER;RELATED=END:-PT5M", "END:VALARM", "END:VEVENT");
+    fold(`SUMMARY:🏋️ ${esc(title)}`), fold(`DESCRIPTION:${esc(plan(date, title))}`), "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Зал через час", "TRIGGER:-PT1H", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок", "TRIGGER;RELATED=END:-PT5M", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🥤 Выпей протеин", "TRIGGER;RELATED=END:PT0M", "END:VALARM", "END:VEVENT");
 };
 for (let d = new Date(Math.max(monday, new Date("2026-11-06"))); d < end; d.setDate(d.getDate() + 1)) {
   const g = GYM[d.getDay()]; if (g) gymEvent(iso(d), g[0], g[1]);

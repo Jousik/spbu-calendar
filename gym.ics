@@ -18,7 +18,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:gym-2026-11-07@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261107T090000
 DTEND;TZID=Europe/Moscow:20261107T110000
 SUMMARY:🏋️ Зал — верх
@@ -37,7 +37,9 @@ DESCRIPTION:Верх Б. Неделя 1: 2 подхода\, вес 50–60
  5 мин в остальных. Не успеваешь — убирай 
  последнее упражнение. Острая боль — сра
  зу стоп.\nВ конце: записать веса и повтор
- ы в дневник тренировок.
+ ы в дневник тренировок.\nПосле зала: прот
+ еин — 30 г порошка на 250–300 мл воды или мо
+ лока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -48,10 +50,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-08@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261108T120000
 DTEND;TZID=Europe/Moscow:20261108T140000
 SUMMARY:🏋️ Зал — низ
@@ -69,7 +76,9 @@ DESCRIPTION:Низ Б. Неделя 1: 2 подхода\, вес 50–60%
  в остальных. Не успеваешь — убирай посл
  еднее упражнение. Острая боль — сразу с
  топ.\nВ конце: записать веса и повторы в д
- невник тренировок.
+ невник тренировок.\nПосле зала: протеин 
+ — 30 г порошка на 250–300 мл воды или молока
+ .
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -80,10 +89,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-10@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261110T140000
 DTEND;TZID=Europe/Moscow:20261110T160000
 SUMMARY:🏋️ Зал — верх
@@ -101,7 +115,8 @@ DESCRIPTION:Верх А. Неделя 1: 2 подхода\, вес 50–60
  ных. Не успеваешь — убирай последнее уп
  ражнение. Острая боль — сразу стоп.\nВ ко
  нце: записать веса и повторы в дневник т
- ренировок.
+ ренировок.\nПосле зала: протеин — 30 г пор
+ ошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -112,10 +127,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-14@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261114T090000
 DTEND;TZID=Europe/Moscow:20261114T110000
 SUMMARY:🏋️ Зал — верх
@@ -134,7 +154,9 @@ DESCRIPTION:Верх Б. Неделя 1: 2 подхода\, вес 50–60
  5 мин в остальных. Не успеваешь — убирай 
  последнее упражнение. Острая боль — сра
  зу стоп.\nВ конце: записать веса и повтор
- ы в дневник тренировок.
+ ы в дневник тренировок.\nПосле зала: прот
+ еин — 30 г порошка на 250–300 мл воды или мо
+ лока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -145,10 +167,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-15@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261115T120000
 DTEND;TZID=Europe/Moscow:20261115T140000
 SUMMARY:🏋️ Зал — низ
@@ -166,7 +193,9 @@ DESCRIPTION:Низ Б. Неделя 1: 2 подхода\, вес 50–60%
  в остальных. Не успеваешь — убирай посл
  еднее упражнение. Острая боль — сразу с
  топ.\nВ конце: записать веса и повторы в д
- невник тренировок.
+ невник тренировок.\nПосле зала: протеин 
+ — 30 г порошка на 250–300 мл воды или молока
+ .
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -177,10 +206,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-17@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261117T140000
 DTEND;TZID=Europe/Moscow:20261117T160000
 SUMMARY:🏋️ Зал — верх
@@ -198,7 +232,8 @@ DESCRIPTION:Верх А. Неделя 2: 2 подхода\, вес 50–60
  ных. Не успеваешь — убирай последнее уп
  ражнение. Острая боль — сразу стоп.\nВ ко
  нце: записать веса и повторы в дневник т
- ренировок.
+ ренировок.\nПосле зала: протеин — 30 г пор
+ ошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -209,10 +244,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-18@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261118T140000
 DTEND;TZID=Europe/Moscow:20261118T160000
 SUMMARY:🏋️ Зал — низ
@@ -230,7 +270,8 @@ DESCRIPTION:Низ А. Неделя 2: 2 подхода\, вес 50–60%
  ных. Не успеваешь — убирай последнее уп
  ражнение. Острая боль — сразу стоп.\nВ ко
  нце: записать веса и повторы в дневник т
- ренировок.
+ ренировок.\nПосле зала: протеин — 30 г пор
+ ошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -241,10 +282,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-21@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261121T090000
 DTEND;TZID=Europe/Moscow:20261121T110000
 SUMMARY:🏋️ Зал — верх
@@ -263,7 +309,9 @@ DESCRIPTION:Верх Б. Неделя 2: 2 подхода\, вес 50–60
  5 мин в остальных. Не успеваешь — убирай 
  последнее упражнение. Острая боль — сра
  зу стоп.\nВ конце: записать веса и повтор
- ы в дневник тренировок.
+ ы в дневник тренировок.\nПосле зала: прот
+ еин — 30 г порошка на 250–300 мл воды или мо
+ лока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -274,10 +322,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-22@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261122T120000
 DTEND;TZID=Europe/Moscow:20261122T140000
 SUMMARY:🏋️ Зал — низ
@@ -295,7 +348,9 @@ DESCRIPTION:Низ Б. Неделя 2: 2 подхода\, вес 50–60%
  в остальных. Не успеваешь — убирай посл
  еднее упражнение. Острая боль — сразу с
  топ.\nВ конце: записать веса и повторы в д
- невник тренировок.
+ невник тренировок.\nПосле зала: протеин 
+ — 30 г порошка на 250–300 мл воды или молока
+ .
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -306,10 +361,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-24@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261124T140000
 DTEND;TZID=Europe/Moscow:20261124T160000
 SUMMARY:🏋️ Зал — верх
@@ -327,7 +387,8 @@ DESCRIPTION:Верх А. Неделя 3: 3 подхода\, вес +5–10
  е успеваешь — убирай последнее упражне
  ние. Острая боль — сразу стоп.\nВ конце: з
  аписать веса и повторы в дневник тренир
- овок.
+ овок.\nПосле зала: протеин — 30 г порошка 
+ на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -338,10 +399,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-25@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261125T140000
 DTEND;TZID=Europe/Moscow:20261125T160000
 SUMMARY:🏋️ Зал — низ
@@ -359,7 +425,8 @@ DESCRIPTION:Низ А. Неделя 3: 3 подхода\, вес +5–10%
  е успеваешь — убирай последнее упражне
  ние. Острая боль — сразу стоп.\nВ конце: з
  аписать веса и повторы в дневник тренир
- овок.
+ овок.\nПосле зала: протеин — 30 г порошка 
+ на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -370,10 +437,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-29@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261129T120000
 DTEND;TZID=Europe/Moscow:20261129T140000
 SUMMARY:🏋️ Зал — низ
@@ -391,7 +463,8 @@ DESCRIPTION:Низ Б. Неделя 3: 3 подхода\, вес +5–10%
  альных. Не успеваешь — убирай последнее
   упражнение. Острая боль — сразу стоп.\nВ
   конце: записать веса и повторы в дневни
- к тренировок.
+ к тренировок.\nПосле зала: протеин — 30 г 
+ порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -402,10 +475,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-02@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261202T140000
 DTEND;TZID=Europe/Moscow:20261202T160000
 SUMMARY:🏋️ Зал — низ
@@ -423,7 +501,8 @@ DESCRIPTION:Низ А. Неделя 4: 3 подхода\, вес +5–10%
  е успеваешь — убирай последнее упражне
  ние. Острая боль — сразу стоп.\nВ конце: з
  аписать веса и повторы в дневник тренир
- овок.
+ овок.\nПосле зала: протеин — 30 г порошка 
+ на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -434,10 +513,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-05@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261205T090000
 DTEND;TZID=Europe/Moscow:20261205T110000
 SUMMARY:🏋️ Зал — верх
@@ -456,7 +540,9 @@ DESCRIPTION:Верх Б. Неделя 4: 3 подхода\, вес +5–10
   в остальных. Не успеваешь — убирай посл
  еднее упражнение. Острая боль — сразу с
  топ.\nВ конце: записать веса и повторы в д
- невник тренировок.
+ невник тренировок.\nПосле зала: протеин 
+ — 30 г порошка на 250–300 мл воды или молока
+ .
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -467,10 +553,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-06@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261206T120000
 DTEND;TZID=Europe/Moscow:20261206T140000
 SUMMARY:🏋️ Зал — низ
@@ -488,7 +579,8 @@ DESCRIPTION:Низ Б. Неделя 4: 3 подхода\, вес +5–10%
  альных. Не успеваешь — убирай последнее
   упражнение. Острая боль — сразу стоп.\nВ
   конце: записать веса и повторы в дневни
- к тренировок.
+ к тренировок.\nПосле зала: протеин — 30 г 
+ порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -499,10 +591,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-08@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261208T140000
 DTEND;TZID=Europe/Moscow:20261208T160000
 SUMMARY:🏋️ Зал — верх
@@ -522,7 +619,9 @@ DESCRIPTION:Верх А. Неделя 5: 3–4 подхода\, 1–2 по
  –1\,5 мин в остальных. Не успеваешь — уби
  рай последнее упражнение. Острая боль —
   сразу стоп.\nВ конце: записать веса и пов
- торы в дневник тренировок.
+ торы в дневник тренировок.\nПосле зала: п
+ ротеин — 30 г порошка на 250–300 мл воды или
+  молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -533,10 +632,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-09@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261209T140000
 DTEND;TZID=Europe/Moscow:20261209T160000
 SUMMARY:🏋️ Зал — низ
@@ -556,7 +660,8 @@ DESCRIPTION:Низ А. Неделя 5: 3–4 подхода\, 1–2 пов
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -567,10 +672,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-13@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261213T120000
 DTEND;TZID=Europe/Moscow:20261213T140000
 SUMMARY:🏋️ Зал — низ
@@ -590,7 +700,8 @@ DESCRIPTION:Низ Б. Неделя 5: 3–4 подхода\, 1–2 пов
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -601,10 +712,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-15@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261215T140000
 DTEND;TZID=Europe/Moscow:20261215T160000
 SUMMARY:🏋️ Зал — верх
@@ -624,7 +740,9 @@ DESCRIPTION:Верх А. Неделя 6: 3–4 подхода\, 1–2 по
  –1\,5 мин в остальных. Не успеваешь — уби
  рай последнее упражнение. Острая боль —
   сразу стоп.\nВ конце: записать веса и пов
- торы в дневник тренировок.
+ торы в дневник тренировок.\nПосле зала: п
+ ротеин — 30 г порошка на 250–300 мл воды или
+  молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -635,10 +753,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-16@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261216T140000
 DTEND;TZID=Europe/Moscow:20261216T160000
 SUMMARY:🏋️ Зал — низ
@@ -658,7 +781,8 @@ DESCRIPTION:Низ А. Неделя 6: 3–4 подхода\, 1–2 пов
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -669,10 +793,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-19@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261219T090000
 DTEND;TZID=Europe/Moscow:20261219T110000
 SUMMARY:🏋️ Зал — верх
@@ -693,7 +822,9 @@ DESCRIPTION:Верх Б. Неделя 6: 3–4 подхода\, 1–2 по
   в остальных. Не успеваешь — убирай посл
  еднее упражнение. Острая боль — сразу с
  топ.\nВ конце: записать веса и повторы в д
- невник тренировок.
+ невник тренировок.\nПосле зала: протеин 
+ — 30 г порошка на 250–300 мл воды или молока
+ .
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -704,10 +835,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-20@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261220T120000
 DTEND;TZID=Europe/Moscow:20261220T140000
 SUMMARY:🏋️ Зал — низ
@@ -727,7 +863,8 @@ DESCRIPTION:Низ Б. Неделя 6: 3–4 подхода\, 1–2 пов
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -738,10 +875,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-22@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261222T140000
 DTEND;TZID=Europe/Moscow:20261222T160000
 SUMMARY:🏋️ Зал — верх
@@ -761,7 +903,9 @@ DESCRIPTION:Верх А. Неделя 7: 3–4 подхода\, 1–2 по
  –1\,5 мин в остальных. Не успеваешь — уби
  рай последнее упражнение. Острая боль —
   сразу стоп.\nВ конце: записать веса и пов
- торы в дневник тренировок.
+ торы в дневник тренировок.\nПосле зала: п
+ ротеин — 30 г порошка на 250–300 мл воды или
+  молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -772,10 +916,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-23@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261223T140000
 DTEND;TZID=Europe/Moscow:20261223T160000
 SUMMARY:🏋️ Зал — низ
@@ -795,7 +944,8 @@ DESCRIPTION:Низ А. Неделя 7: 3–4 подхода\, 1–2 пов
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -806,10 +956,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-26@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261226T090000
 DTEND;TZID=Europe/Moscow:20261226T110000
 SUMMARY:🏋️ Зал — верх
@@ -830,7 +985,9 @@ DESCRIPTION:Верх Б. Неделя 7: 3–4 подхода\, 1–2 по
   в остальных. Не успеваешь — убирай посл
  еднее упражнение. Острая боль — сразу с
  топ.\nВ конце: записать веса и повторы в д
- невник тренировок.
+ невник тренировок.\nПосле зала: протеин 
+ — 30 г порошка на 250–300 мл воды или молока
+ .
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -841,10 +998,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-27@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261227T120000
 DTEND;TZID=Europe/Moscow:20261227T140000
 SUMMARY:🏋️ Зал — низ
@@ -864,7 +1026,8 @@ DESCRIPTION:Низ Б. Неделя 7: 3–4 подхода\, 1–2 пов
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -875,10 +1038,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-29@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261229T140000
 DTEND;TZID=Europe/Moscow:20261229T160000
 SUMMARY:🏋️ Зал — верх
@@ -898,7 +1066,9 @@ DESCRIPTION:Верх А. Неделя 8: 3–4 подхода\, 1–2 по
  –1\,5 мин в остальных. Не успеваешь — уби
  рай последнее упражнение. Острая боль —
   сразу стоп.\nВ конце: записать веса и пов
- торы в дневник тренировок.
+ торы в дневник тренировок.\nПосле зала: п
+ ротеин — 30 г порошка на 250–300 мл воды или
+  молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -909,10 +1079,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-30@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261230T140000
 DTEND;TZID=Europe/Moscow:20261230T160000
 SUMMARY:🏋️ Зал — низ
@@ -932,7 +1107,8 @@ DESCRIPTION:Низ А. Неделя 8: 3–4 подхода\, 1–2 пов
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -943,10 +1119,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-02@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270102T090000
 DTEND;TZID=Europe/Moscow:20270102T110000
 SUMMARY:🏋️ Зал — верх
@@ -967,7 +1148,9 @@ DESCRIPTION:Верх Б. Неделя 8: 3–4 подхода\, 1–2 по
   в остальных. Не успеваешь — убирай посл
  еднее упражнение. Острая боль — сразу с
  топ.\nВ конце: записать веса и повторы в д
- невник тренировок.
+ невник тренировок.\nПосле зала: протеин 
+ — 30 г порошка на 250–300 мл воды или молока
+ .
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -978,10 +1161,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-03@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270103T120000
 DTEND;TZID=Europe/Moscow:20270103T140000
 SUMMARY:🏋️ Зал — низ
@@ -1001,7 +1189,8 @@ DESCRIPTION:Низ Б. Неделя 8: 3–4 подхода\, 1–2 пов
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1012,10 +1201,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-05@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270105T140000
 DTEND;TZID=Europe/Moscow:20270105T160000
 SUMMARY:🏋️ Зал — верх
@@ -1033,7 +1227,9 @@ DESCRIPTION:Верх А. Неделя 9: РАЗГРУЗКА — 2 подх
  в базовых\, 1–1\,5 мин в остальных. Не успе
  ваешь — убирай последнее упражнение. Ос
  трая боль — сразу стоп.\nВ конце: записат
- ь веса и повторы в дневник тренировок.
+ ь веса и повторы в дневник тренировок.\nП
+ осле зала: протеин — 30 г порошка на 250–300
+  мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1044,10 +1240,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-06@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270106T140000
 DTEND;TZID=Europe/Moscow:20270106T160000
 SUMMARY:🏋️ Зал — низ
@@ -1065,7 +1266,8 @@ DESCRIPTION:Низ А. Неделя 9: РАЗГРУЗКА — 2 подхо
  ых. Не успеваешь — убирай последнее упр
  ажнение. Острая боль — сразу стоп.\nВ кон
  це: записать веса и повторы в дневник тр
- енировок.
+ енировок.\nПосле зала: протеин — 30 г поро
+ шка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1076,10 +1278,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-09@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270109T090000
 DTEND;TZID=Europe/Moscow:20270109T110000
 SUMMARY:🏋️ Зал — верх
@@ -1099,7 +1306,8 @@ DESCRIPTION:Верх Б. Неделя 9: РАЗГРУЗКА — 2 подх
  льных. Не успеваешь — убирай последнее 
  упражнение. Острая боль — сразу стоп.\nВ 
  конце: записать веса и повторы в дневник
-  тренировок.
+  тренировок.\nПосле зала: протеин — 30 г п
+ орошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1110,10 +1318,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-10@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270110T120000
 DTEND;TZID=Europe/Moscow:20270110T140000
 SUMMARY:🏋️ Зал — низ
@@ -1132,7 +1345,8 @@ DESCRIPTION:Низ Б. Неделя 9: РАЗГРУЗКА — 2 подхо
  Не успеваешь — убирай последнее упражн
  ение. Острая боль — сразу стоп.\nВ конце: 
  записать веса и повторы в дневник трени
- ровок.
+ ровок.\nПосле зала: протеин — 30 г порошка
+  на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1143,10 +1357,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-12@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270112T140000
 DTEND;TZID=Europe/Moscow:20270112T160000
 SUMMARY:🏋️ Зал — верх
@@ -1166,7 +1385,9 @@ DESCRIPTION:Верх А. Неделя 10: 3–4 подхода\, 1–2 п
   1–1\,5 мин в остальных. Не успеваешь — уб
  ирай последнее упражнение. Острая боль 
  — сразу стоп.\nВ конце: записать веса и п
- овторы в дневник тренировок.
+ овторы в дневник тренировок.\nПосле зала
+ : протеин — 30 г порошка на 250–300 мл воды и
+ ли молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1177,10 +1398,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-13@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270113T140000
 DTEND;TZID=Europe/Moscow:20270113T160000
 SUMMARY:🏋️ Зал — низ
@@ -1200,7 +1426,8 @@ DESCRIPTION:Низ А. Неделя 10: 3–4 подхода\, 1–2 по
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1211,10 +1438,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-16@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270116T090000
 DTEND;TZID=Europe/Moscow:20270116T110000
 SUMMARY:🏋️ Зал — верх
@@ -1235,7 +1467,9 @@ DESCRIPTION:Верх Б. Неделя 10: 3–4 подхода\, 1–2 п
  ин в остальных. Не успеваешь — убирай по
  следнее упражнение. Острая боль — сразу
   стоп.\nВ конце: записать веса и повторы в
-  дневник тренировок.
+  дневник тренировок.\nПосле зала: протеи
+ н — 30 г порошка на 250–300 мл воды или моло
+ ка.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1246,10 +1480,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-17@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270117T120000
 DTEND;TZID=Europe/Moscow:20270117T140000
 SUMMARY:🏋️ Зал — низ
@@ -1269,7 +1508,8 @@ DESCRIPTION:Низ Б. Неделя 10: 3–4 подхода\, 1–2 по
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1280,10 +1520,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-19@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270119T140000
 DTEND;TZID=Europe/Moscow:20270119T160000
 SUMMARY:🏋️ Зал — верх
@@ -1303,7 +1548,9 @@ DESCRIPTION:Верх А. Неделя 11: 3–4 подхода\, 1–2 п
   1–1\,5 мин в остальных. Не успеваешь — уб
  ирай последнее упражнение. Острая боль 
  — сразу стоп.\nВ конце: записать веса и п
- овторы в дневник тренировок.
+ овторы в дневник тренировок.\nПосле зала
+ : протеин — 30 г порошка на 250–300 мл воды и
+ ли молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1314,10 +1561,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-20@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270120T140000
 DTEND;TZID=Europe/Moscow:20270120T160000
 SUMMARY:🏋️ Зал — низ
@@ -1337,7 +1589,8 @@ DESCRIPTION:Низ А. Неделя 11: 3–4 подхода\, 1–2 по
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1348,10 +1601,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-23@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270123T090000
 DTEND;TZID=Europe/Moscow:20270123T110000
 SUMMARY:🏋️ Зал — верх
@@ -1372,7 +1630,9 @@ DESCRIPTION:Верх Б. Неделя 11: 3–4 подхода\, 1–2 п
  ин в остальных. Не успеваешь — убирай по
  следнее упражнение. Острая боль — сразу
   стоп.\nВ конце: записать веса и повторы в
-  дневник тренировок.
+  дневник тренировок.\nПосле зала: протеи
+ н — 30 г порошка на 250–300 мл воды или моло
+ ка.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1383,10 +1643,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-24@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270124T120000
 DTEND;TZID=Europe/Moscow:20270124T140000
 SUMMARY:🏋️ Зал — низ
@@ -1406,7 +1671,8 @@ DESCRIPTION:Низ Б. Неделя 11: 3–4 подхода\, 1–2 по
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1417,10 +1683,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-26@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270126T140000
 DTEND;TZID=Europe/Moscow:20270126T160000
 SUMMARY:🏋️ Зал — верх
@@ -1440,7 +1711,9 @@ DESCRIPTION:Верх А. Неделя 12: 3–4 подхода\, 1–2 п
   1–1\,5 мин в остальных. Не успеваешь — уб
  ирай последнее упражнение. Острая боль 
  — сразу стоп.\nВ конце: записать веса и п
- овторы в дневник тренировок.
+ овторы в дневник тренировок.\nПосле зала
+ : протеин — 30 г порошка на 250–300 мл воды и
+ ли молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1451,10 +1724,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-27@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270127T140000
 DTEND;TZID=Europe/Moscow:20270127T160000
 SUMMARY:🏋️ Зал — низ
@@ -1474,7 +1752,8 @@ DESCRIPTION:Низ А. Неделя 12: 3–4 подхода\, 1–2 по
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1485,10 +1764,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-30@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270130T090000
 DTEND;TZID=Europe/Moscow:20270130T110000
 SUMMARY:🏋️ Зал — верх
@@ -1509,7 +1793,9 @@ DESCRIPTION:Верх Б. Неделя 12: 3–4 подхода\, 1–2 п
  ин в остальных. Не успеваешь — убирай по
  следнее упражнение. Острая боль — сразу
   стоп.\nВ конце: записать веса и повторы в
-  дневник тренировок.
+  дневник тренировок.\nПосле зала: протеи
+ н — 30 г порошка на 250–300 мл воды или моло
+ ка.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1520,10 +1806,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-01-31@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270131T120000
 DTEND;TZID=Europe/Moscow:20270131T140000
 SUMMARY:🏋️ Зал — низ
@@ -1543,7 +1834,8 @@ DESCRIPTION:Низ Б. Неделя 12: 3–4 подхода\, 1–2 по
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1554,10 +1846,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-02@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270202T140000
 DTEND;TZID=Europe/Moscow:20270202T160000
 SUMMARY:🏋️ Зал — верх
@@ -1577,7 +1874,9 @@ DESCRIPTION:Верх А. Неделя 13: 3–4 подхода\, 1–2 п
   1–1\,5 мин в остальных. Не успеваешь — уб
  ирай последнее упражнение. Острая боль 
  — сразу стоп.\nВ конце: записать веса и п
- овторы в дневник тренировок.
+ овторы в дневник тренировок.\nПосле зала
+ : протеин — 30 г порошка на 250–300 мл воды и
+ ли молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1588,10 +1887,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-03@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270203T140000
 DTEND;TZID=Europe/Moscow:20270203T160000
 SUMMARY:🏋️ Зал — низ
@@ -1611,7 +1915,8 @@ DESCRIPTION:Низ А. Неделя 13: 3–4 подхода\, 1–2 по
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1622,10 +1927,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-06@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270206T090000
 DTEND;TZID=Europe/Moscow:20270206T110000
 SUMMARY:🏋️ Зал — верх
@@ -1646,7 +1956,9 @@ DESCRIPTION:Верх Б. Неделя 13: 3–4 подхода\, 1–2 п
  ин в остальных. Не успеваешь — убирай по
  следнее упражнение. Острая боль — сразу
   стоп.\nВ конце: записать веса и повторы в
-  дневник тренировок.
+  дневник тренировок.\nПосле зала: протеи
+ н — 30 г порошка на 250–300 мл воды или моло
+ ка.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1657,10 +1969,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-07@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270207T120000
 DTEND;TZID=Europe/Moscow:20270207T140000
 SUMMARY:🏋️ Зал — низ
@@ -1680,7 +1997,8 @@ DESCRIPTION:Низ Б. Неделя 13: 3–4 подхода\, 1–2 по
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1691,10 +2009,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-09@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270209T140000
 DTEND;TZID=Europe/Moscow:20270209T160000
 SUMMARY:🏋️ Зал — верх
@@ -1714,7 +2037,9 @@ DESCRIPTION:Верх А. Неделя 14: 3–4 подхода\, 1–2 п
   1–1\,5 мин в остальных. Не успеваешь — уб
  ирай последнее упражнение. Острая боль 
  — сразу стоп.\nВ конце: записать веса и п
- овторы в дневник тренировок.
+ овторы в дневник тренировок.\nПосле зала
+ : протеин — 30 г порошка на 250–300 мл воды и
+ ли молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1725,10 +2050,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-10@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270210T140000
 DTEND;TZID=Europe/Moscow:20270210T160000
 SUMMARY:🏋️ Зал — низ
@@ -1748,7 +2078,8 @@ DESCRIPTION:Низ А. Неделя 14: 3–4 подхода\, 1–2 по
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1759,10 +2090,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-13@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270213T090000
 DTEND;TZID=Europe/Moscow:20270213T110000
 SUMMARY:🏋️ Зал — верх
@@ -1783,7 +2119,9 @@ DESCRIPTION:Верх Б. Неделя 14: 3–4 подхода\, 1–2 п
  ин в остальных. Не успеваешь — убирай по
  следнее упражнение. Острая боль — сразу
   стоп.\nВ конце: записать веса и повторы в
-  дневник тренировок.
+  дневник тренировок.\nПосле зала: протеи
+ н — 30 г порошка на 250–300 мл воды или моло
+ ка.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1794,10 +2132,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-14@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270214T120000
 DTEND;TZID=Europe/Moscow:20270214T140000
 SUMMARY:🏋️ Зал — низ
@@ -1817,7 +2160,8 @@ DESCRIPTION:Низ Б. Неделя 14: 3–4 подхода\, 1–2 по
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1828,10 +2172,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-16@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270216T140000
 DTEND;TZID=Europe/Moscow:20270216T160000
 SUMMARY:🏋️ Зал — верх
@@ -1851,7 +2200,9 @@ DESCRIPTION:Верх А. Неделя 15: 3–4 подхода\, 1–2 п
   1–1\,5 мин в остальных. Не успеваешь — уб
  ирай последнее упражнение. Острая боль 
  — сразу стоп.\nВ конце: записать веса и п
- овторы в дневник тренировок.
+ овторы в дневник тренировок.\nПосле зала
+ : протеин — 30 г порошка на 250–300 мл воды и
+ ли молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1862,10 +2213,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-17@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270217T140000
 DTEND;TZID=Europe/Moscow:20270217T160000
 SUMMARY:🏋️ Зал — низ
@@ -1885,7 +2241,8 @@ DESCRIPTION:Низ А. Неделя 15: 3–4 подхода\, 1–2 по
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1896,10 +2253,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-20@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270220T090000
 DTEND;TZID=Europe/Moscow:20270220T110000
 SUMMARY:🏋️ Зал — верх
@@ -1920,7 +2282,9 @@ DESCRIPTION:Верх Б. Неделя 15: 3–4 подхода\, 1–2 п
  ин в остальных. Не успеваешь — убирай по
  следнее упражнение. Острая боль — сразу
   стоп.\nВ конце: записать веса и повторы в
-  дневник тренировок.
+  дневник тренировок.\nПосле зала: протеи
+ н — 30 г порошка на 250–300 мл воды или моло
+ ка.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1931,10 +2295,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-21@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270221T120000
 DTEND;TZID=Europe/Moscow:20270221T140000
 SUMMARY:🏋️ Зал — низ
@@ -1954,7 +2323,8 @@ DESCRIPTION:Низ Б. Неделя 15: 3–4 подхода\, 1–2 по
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1965,10 +2335,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-23@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270223T140000
 DTEND;TZID=Europe/Moscow:20270223T160000
 SUMMARY:🏋️ Зал — верх
@@ -1988,7 +2363,9 @@ DESCRIPTION:Верх А. Неделя 16: 3–4 подхода\, 1–2 п
   1–1\,5 мин в остальных. Не успеваешь — уб
  ирай последнее упражнение. Острая боль 
  — сразу стоп.\nВ конце: записать веса и п
- овторы в дневник тренировок.
+ овторы в дневник тренировок.\nПосле зала
+ : протеин — 30 г порошка на 250–300 мл воды и
+ ли молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -1999,10 +2376,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-24@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270224T140000
 DTEND;TZID=Europe/Moscow:20270224T160000
 SUMMARY:🏋️ Зал — низ
@@ -2022,7 +2404,8 @@ DESCRIPTION:Низ А. Неделя 16: 3–4 подхода\, 1–2 по
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2033,10 +2416,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-27@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270227T090000
 DTEND;TZID=Europe/Moscow:20270227T110000
 SUMMARY:🏋️ Зал — верх
@@ -2057,7 +2445,9 @@ DESCRIPTION:Верх Б. Неделя 16: 3–4 подхода\, 1–2 п
  ин в остальных. Не успеваешь — убирай по
  следнее упражнение. Острая боль — сразу
   стоп.\nВ конце: записать веса и повторы в
-  дневник тренировок.
+  дневник тренировок.\nПосле зала: протеи
+ н — 30 г порошка на 250–300 мл воды или моло
+ ка.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2068,10 +2458,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-02-28@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270228T120000
 DTEND;TZID=Europe/Moscow:20270228T140000
 SUMMARY:🏋️ Зал — низ
@@ -2091,7 +2486,8 @@ DESCRIPTION:Низ Б. Неделя 16: 3–4 подхода\, 1–2 по
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2102,10 +2498,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-02@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270302T140000
 DTEND;TZID=Europe/Moscow:20270302T160000
 SUMMARY:🏋️ Зал — верх
@@ -2123,7 +2524,9 @@ DESCRIPTION:Верх А. Неделя 17: РАЗГРУЗКА — 2 под
  в базовых\, 1–1\,5 мин в остальных. Не успе
  ваешь — убирай последнее упражнение. Ос
  трая боль — сразу стоп.\nВ конце: записат
- ь веса и повторы в дневник тренировок.
+ ь веса и повторы в дневник тренировок.\nП
+ осле зала: протеин — 30 г порошка на 250–300
+  мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2134,10 +2537,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-03@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270303T140000
 DTEND;TZID=Europe/Moscow:20270303T160000
 SUMMARY:🏋️ Зал — низ
@@ -2155,7 +2563,8 @@ DESCRIPTION:Низ А. Неделя 17: РАЗГРУЗКА — 2 подх
  льных. Не успеваешь — убирай последнее 
  упражнение. Острая боль — сразу стоп.\nВ 
  конце: записать веса и повторы в дневник
-  тренировок.
+  тренировок.\nПосле зала: протеин — 30 г п
+ орошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2166,10 +2575,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-06@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270306T090000
 DTEND;TZID=Europe/Moscow:20270306T110000
 SUMMARY:🏋️ Зал — верх
@@ -2189,7 +2603,8 @@ DESCRIPTION:Верх Б. Неделя 17: РАЗГРУЗКА — 2 под
  льных. Не успеваешь — убирай последнее 
  упражнение. Острая боль — сразу стоп.\nВ 
  конце: записать веса и повторы в дневник
-  тренировок.
+  тренировок.\nПосле зала: протеин — 30 г п
+ орошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2200,10 +2615,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-07@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270307T120000
 DTEND;TZID=Europe/Moscow:20270307T140000
 SUMMARY:🏋️ Зал — низ
@@ -2222,7 +2642,8 @@ DESCRIPTION:Низ Б. Неделя 17: РАЗГРУЗКА — 2 подх
  ых. Не успеваешь — убирай последнее упр
  ажнение. Острая боль — сразу стоп.\nВ кон
  це: записать веса и повторы в дневник тр
- енировок.
+ енировок.\nПосле зала: протеин — 30 г поро
+ шка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2233,10 +2654,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-09@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270309T140000
 DTEND;TZID=Europe/Moscow:20270309T160000
 SUMMARY:🏋️ Зал — верх
@@ -2256,7 +2682,9 @@ DESCRIPTION:Верх А. Неделя 18: 3–4 подхода\, 1–2 п
   1–1\,5 мин в остальных. Не успеваешь — уб
  ирай последнее упражнение. Острая боль 
  — сразу стоп.\nВ конце: записать веса и п
- овторы в дневник тренировок.
+ овторы в дневник тренировок.\nПосле зала
+ : протеин — 30 г порошка на 250–300 мл воды и
+ ли молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2267,10 +2695,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-10@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270310T140000
 DTEND;TZID=Europe/Moscow:20270310T160000
 SUMMARY:🏋️ Зал — низ
@@ -2290,7 +2723,8 @@ DESCRIPTION:Низ А. Неделя 18: 3–4 подхода\, 1–2 по
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2301,10 +2735,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-13@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270313T090000
 DTEND;TZID=Europe/Moscow:20270313T110000
 SUMMARY:🏋️ Зал — верх
@@ -2325,7 +2764,9 @@ DESCRIPTION:Верх Б. Неделя 18: 3–4 подхода\, 1–2 п
  ин в остальных. Не успеваешь — убирай по
  следнее упражнение. Острая боль — сразу
   стоп.\nВ конце: записать веса и повторы в
-  дневник тренировок.
+  дневник тренировок.\nПосле зала: протеи
+ н — 30 г порошка на 250–300 мл воды или моло
+ ка.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2336,10 +2777,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-14@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270314T120000
 DTEND;TZID=Europe/Moscow:20270314T140000
 SUMMARY:🏋️ Зал — низ
@@ -2359,7 +2805,8 @@ DESCRIPTION:Низ Б. Неделя 18: 3–4 подхода\, 1–2 по
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2370,10 +2817,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-16@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270316T140000
 DTEND;TZID=Europe/Moscow:20270316T160000
 SUMMARY:🏋️ Зал — верх
@@ -2393,7 +2845,9 @@ DESCRIPTION:Верх А. Неделя 19: 3–4 подхода\, 1–2 п
   1–1\,5 мин в остальных. Не успеваешь — уб
  ирай последнее упражнение. Острая боль 
  — сразу стоп.\nВ конце: записать веса и п
- овторы в дневник тренировок.
+ овторы в дневник тренировок.\nПосле зала
+ : протеин — 30 г порошка на 250–300 мл воды и
+ ли молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2404,10 +2858,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-17@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270317T140000
 DTEND;TZID=Europe/Moscow:20270317T160000
 SUMMARY:🏋️ Зал — низ
@@ -2427,7 +2886,8 @@ DESCRIPTION:Низ А. Неделя 19: 3–4 подхода\, 1–2 по
  успеваешь — убирай последнее упражнени
  е. Острая боль — сразу стоп.\nВ конце: зап
  исать веса и повторы в дневник трениров
- ок.
+ ок.\nПосле зала: протеин — 30 г порошка на 
+ 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2438,10 +2898,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-20@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270320T090000
 DTEND;TZID=Europe/Moscow:20270320T110000
 SUMMARY:🏋️ Зал — верх
@@ -2462,7 +2927,9 @@ DESCRIPTION:Верх Б. Неделя 19: 3–4 подхода\, 1–2 п
  ин в остальных. Не успеваешь — убирай по
  следнее упражнение. Острая боль — сразу
   стоп.\nВ конце: записать веса и повторы в
-  дневник тренировок.
+  дневник тренировок.\nПосле зала: протеи
+ н — 30 г порошка на 250–300 мл воды или моло
+ ка.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2473,10 +2940,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2027-03-21@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20270321T120000
 DTEND;TZID=Europe/Moscow:20270321T140000
 SUMMARY:🏋️ Зал — низ
@@ -2496,7 +2968,8 @@ DESCRIPTION:Низ Б. Неделя 19: 3–4 подхода\, 1–2 по
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2507,10 +2980,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-13@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261113T154500
 DTEND;TZID=Europe/Moscow:20261113T174500
 SUMMARY:🏋️ Зал — низ (перенос со среды)
@@ -2528,7 +3006,8 @@ DESCRIPTION:Низ А. Неделя 1: 2 подхода\, вес 50–60%
  стальных. Не успеваешь — убирай последн
  ее упражнение. Острая боль — сразу стоп.
  \nВ конце: записать веса и повторы в днев
- ник тренировок.
+ ник тренировок.\nПосле зала: протеин — 30 
+ г порошка на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2539,10 +3018,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-01@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261201T090000
 DTEND;TZID=Europe/Moscow:20261201T110000
 SUMMARY:🏋️ Зал — верх (утром\, до пар)
@@ -2560,7 +3044,8 @@ DESCRIPTION:Верх А. Неделя 4: 3 подхода\, вес +5–10
  е успеваешь — убирай последнее упражне
  ние. Острая боль — сразу стоп.\nВ конце: з
  аписать веса и повторы в дневник тренир
- овок.
+ овок.\nПосле зала: протеин — 30 г порошка 
+ на 250–300 мл воды или молока.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2571,10 +3056,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-11-28@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261128T083000
 DTEND;TZID=Europe/Moscow:20261128T103000
 SUMMARY:🏋️ Зал — верх (раньше: пары с 11:30)
@@ -2593,7 +3083,9 @@ DESCRIPTION:Верх Б. Неделя 3: 3 подхода\, вес +5–10
   в остальных. Не успеваешь — убирай посл
  еднее упражнение. Острая боль — сразу с
  топ.\nВ конце: записать веса и повторы в д
- невник тренировок.
+ невник тренировок.\nПосле зала: протеин 
+ — 30 г порошка на 250–300 мл воды или молока
+ .
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2604,10 +3096,15 @@ ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gym-2026-12-12@spbu-25b05
-DTSTAMP:20261106T111630Z
+DTSTAMP:20261106T112949Z
 DTSTART;TZID=Europe/Moscow:20261212T083000
 DTEND;TZID=Europe/Moscow:20261212T103000
 SUMMARY:🏋️ Зал — верх (раньше: пары с 11:30)
@@ -2628,7 +3125,9 @@ DESCRIPTION:Верх Б. Неделя 5: 3–4 подхода\, 1–2 по
   в остальных. Не успеваешь — убирай посл
  еднее упражнение. Острая боль — сразу с
  топ.\nВ конце: записать веса и повторы в д
- невник тренировок.
+ невник тренировок.\nПосле зала: протеин 
+ — 30 г порошка на 250–300 мл воды или молока
+ .
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Зал через час
@@ -2638,6 +3137,11 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок
 TRIGGER;RELATED=END:-PT5M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥤 Выпей протеин
+TRIGGER;RELATED=END:PT0M
 END:VALARM
 END:VEVENT
 END:VCALENDAR
