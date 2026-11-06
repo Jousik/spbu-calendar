@@ -3232,7 +3232,7 @@ DTSTAMP:20261106T110000Z
 DTSTART;TZID=Europe/Moscow:20261109T071500
 DTEND;TZID=Europe/Moscow:20261109T072000
 RRULE:FREQ=DAILY
-SUMMARY:💊 Креатин 5 г + D3 + омега-3 (2–3 капс.)
+SUMMARY:💊 Креатин 5 г + D3 + омега-3 (3 капс.)
 TRANSP:TRANSPARENT
 DESCRIPTION:За завтраком\, с едой. Креатин — каждый день\, и в дни без зала: 1 ч. л. в воду\, кофе или коктейль. D3 и омега-3 — только с едой.
 BEGIN:VALARM
