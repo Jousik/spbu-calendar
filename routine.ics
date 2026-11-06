@@ -88,20 +88,6 @@ TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:yt-20261118@spbu-25b05
-DTSTAMP:20261105T173500Z
-DTSTART;TZID=Europe/Moscow:20261118T211000
-DTEND;TZID=Europe/Moscow:20261118T214000
-SUMMARY:▶️ Всё о ставке репетитора: какую ставить и как повышать (14 мин)
-URL:https://www.youtube.com/watch?v=S3H3qvkDOiM
-DESCRIPTION:https://www.youtube.com/watch?v=S3H3qvkDOiM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Всё о ставке репетитора: какую ставить и как повышать
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:yt-20261120@spbu-25b05
 DTSTAMP:20261105T173500Z
 DTSTART;TZID=Europe/Moscow:20261120T211000
@@ -322,20 +308,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🍱 Заготовка еды
 TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt3-20261106-0800@spbu-25b05
-DTSTAMP:20261105T181500Z
-DTSTART;TZID=Europe/Moscow:20261106T080000
-DTEND;TZID=Europe/Moscow:20261106T082500
-SUMMARY:▶️ Как сейчас вести пробный урок\, чтобы выбрали вас (11 мин)
-URL:https://www.youtube.com/watch?v=dUT6eYNtM1A
-DESCRIPTION:https://www.youtube.com/watch?v=dUT6eYNtM1A
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как сейчас вести пробный урок\, чтобы выбрали вас
-TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -909,20 +881,6 @@ SUMMARY:🍽 Ужин
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:yt4-K42s8KQ_oNA@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261106T083000
-DTEND;TZID=Europe/Moscow:20261106T091000
-SUMMARY:▶️ Как репетитору быстро найти учеников: 5 способов (19 мин)
-URL:https://www.youtube.com/watch?v=K42s8KQ_oNA
-DESCRIPTION:https://www.youtube.com/watch?v=K42s8KQ_oNA
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как репетитору быстро найти учеников: 5 способов (19 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:yt4-TCpaBqGiyY8@spbu-25b05
 DTSTAMP:20261106T050000Z
 DTSTART;TZID=Europe/Moscow:20261106T091000
@@ -1117,20 +1075,6 @@ DESCRIPTION:https://www.youtube.com/watch?v=2Q1O-eCyKTE
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:▶️ Сколько может зарабатывать репетитор (13 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:yt4-QKhkEMIRo_g@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261108T111000
-DTEND;TZID=Europe/Moscow:20261108T114000
-SUMMARY:▶️ Советы репетиторам: ставка\, границы и правила (12 мин)
-URL:https://www.youtube.com/watch?v=QKhkEMIRo_g
-DESCRIPTION:https://www.youtube.com/watch?v=QKhkEMIRo_g
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Советы репетиторам: ставка\, границы и правила (12 мин)
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
@@ -2143,20 +2087,6 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:yt4-mfEOqqkU7J8@spbu-25b05
-DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261117T084500
-DTEND;TZID=Europe/Moscow:20261117T091500
-SUMMARY:▶️ Как репетитору собрать группы (14 мин)
-URL:https://www.youtube.com/watch?v=mfEOqqkU7J8
-DESCRIPTION:https://www.youtube.com/watch?v=mfEOqqkU7J8
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:▶️ Как репетитору собрать группы (14 мин)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:yt4-5AhEFNos0LY@spbu-25b05
 DTSTAMP:20261106T050000Z
 DTSTART;TZID=Europe/Moscow:20261117T091500
@@ -3091,6 +3021,202 @@ DESCRIPTION:https://www.youtube.com/watch?v=VqRrMTRJI1M
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:▶️ Не думал\, что фриланс это так сложно (11 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-39b_w90Onvw@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261106T083000
+DTEND;TZID=Europe/Moscow:20261106T090500
+SUMMARY:▶️ Вопросы начинающего репетитора: поиск учеников и первое занятие (16 мин)
+URL:https://www.youtube.com/watch?v=39b_w90Onvw
+DESCRIPTION:https://www.youtube.com/watch?v=39b_w90Onvw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Вопросы начинающего репетитора: поиск учеников и первое занятие (16 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-OKPJtf53cAc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261108T111000
+DTEND;TZID=Europe/Moscow:20261108T114000
+SUMMARY:▶️ Вся правда о продвижении в ВК в 2026 (14 мин)
+URL:https://www.youtube.com/watch?v=OKPJtf53cAc
+DESCRIPTION:https://www.youtube.com/watch?v=OKPJtf53cAc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Вся правда о продвижении в ВК в 2026 (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-ot4lxOnBgTQ@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T084500
+DTEND;TZID=Europe/Moscow:20261117T090000
+SUMMARY:▶️ Платные услуги на Авито (5 мин)
+URL:https://www.youtube.com/watch?v=ot4lxOnBgTQ
+DESCRIPTION:https://www.youtube.com/watch?v=ot4lxOnBgTQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Платные услуги на Авито (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-9EOS6PUcHCA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261117T090000
+DTEND;TZID=Europe/Moscow:20261117T091500
+SUMMARY:▶️ Как платить налоги самозанятому (6 мин)
+URL:https://www.youtube.com/watch?v=9EOS6PUcHCA
+DESCRIPTION:https://www.youtube.com/watch?v=9EOS6PUcHCA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как платить налоги самозанятому (6 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-CPkB0ScZr1g@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261118T210000
+DTEND;TZID=Europe/Moscow:20261118T212500
+SUMMARY:▶️ 5 способов инвестирования для начинающих (10 мин)
+URL:https://www.youtube.com/watch?v=CPkB0ScZr1g
+DESCRIPTION:https://www.youtube.com/watch?v=CPkB0ScZr1g
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 5 способов инвестирования для начинающих (10 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-NuePpy60y-I@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261118T212500
+DTEND;TZID=Europe/Moscow:20261118T214500
+SUMMARY:▶️ Все секреты становой тяги (7 мин)
+URL:https://www.youtube.com/watch?v=NuePpy60y-I
+DESCRIPTION:https://www.youtube.com/watch?v=NuePpy60y-I
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Все секреты становой тяги (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-pW8xp0_JpFs@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261122T191500
+DTEND;TZID=Europe/Moscow:20261122T193000
+SUMMARY:▶️ Прокрастинация: как не откладывать (5 мин)
+URL:https://www.youtube.com/watch?v=pW8xp0_JpFs
+DESCRIPTION:https://www.youtube.com/watch?v=pW8xp0_JpFs
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Прокрастинация: как не откладывать (5 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-xIGTca7CBUU@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T184500
+DTEND;TZID=Europe/Moscow:20261123T190000
+SUMMARY:▶️ Красивая речь за 8 минут (6 мин)
+URL:https://www.youtube.com/watch?v=xIGTca7CBUU
+DESCRIPTION:https://www.youtube.com/watch?v=xIGTca7CBUU
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Красивая речь за 8 минут (6 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-vnM81AWpOPc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261123T213500
+DTEND;TZID=Europe/Moscow:20261123T215000
+SUMMARY:▶️ Если хочешь стать репетитором: с чего начать (7 мин)
+URL:https://www.youtube.com/watch?v=vnM81AWpOPc
+DESCRIPTION:https://www.youtube.com/watch?v=vnM81AWpOPc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Если хочешь стать репетитором: с чего начать (7 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-qMclw_iqokY@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261124T072000
+DTEND;TZID=Europe/Moscow:20261124T075500
+SUMMARY:▶️ Финансовая подушка: где хранить деньги (17 мин)
+URL:https://www.youtube.com/watch?v=qMclw_iqokY
+DESCRIPTION:https://www.youtube.com/watch?v=qMclw_iqokY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Финансовая подушка: где хранить деньги (17 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-UrVYDayKLWc@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261124T075500
+DTEND;TZID=Europe/Moscow:20261124T081500
+SUMMARY:▶️ 5 лайфхаков самодисциплины от Брайана Трейси (8 мин)
+URL:https://www.youtube.com/watch?v=UrVYDayKLWc
+DESCRIPTION:https://www.youtube.com/watch?v=UrVYDayKLWc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 5 лайфхаков самодисциплины от Брайана Трейси (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-tKL36LWbL9U@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261124T162500
+DTEND;TZID=Europe/Moscow:20261124T164500
+SUMMARY:▶️ Сделай свой присед лучше (8 мин)
+URL:https://www.youtube.com/watch?v=tKL36LWbL9U
+DESCRIPTION:https://www.youtube.com/watch?v=tKL36LWbL9U
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Сделай свой присед лучше (8 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-FQW3NzS4cUA@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261124T200000
+DTEND;TZID=Europe/Moscow:20261124T203000
+SUMMARY:▶️ 7 способов убедить человека (14 мин)
+URL:https://www.youtube.com/watch?v=FQW3NzS4cUA
+DESCRIPTION:https://www.youtube.com/watch?v=FQW3NzS4cUA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ 7 способов убедить человека (14 мин)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:yt4-2_IxpjIWCo8@spbu-25b05
+DTSTAMP:20261106T050000Z
+DTSTART;TZID=Europe/Moscow:20261124T204500
+DTEND;TZID=Europe/Moscow:20261124T210000
+SUMMARY:▶️ Как высыпаться: последствия недосыпа (5 мин)
+URL:https://www.youtube.com/watch?v=2_IxpjIWCo8
+DESCRIPTION:https://www.youtube.com/watch?v=2_IxpjIWCo8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:▶️ Как высыпаться: последствия недосыпа (5 мин)
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
