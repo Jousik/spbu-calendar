@@ -23,6 +23,12 @@ for (let d = new Date(monday); d < end; d.setDate(d.getDate() + 28)) {
   const data = await r.json();
   for (const day of data.Days || []) for (const e of day.DayStudyEvents || []) {
     if (EXCLUDE.some(rx => rx.test(e.Subject))) continue;
+    // Предпринимательство, семинары по субботам: подгруппы чередуются по неделям.
+    // 07.11 — 2-я подгруппа, 14.11 — 1-я (Артём в 1-й) → оставляем только недели 1-й подгруппы.
+    if (/Предпринимательство, семинар/.test(e.Subject)) {
+      const wk = Math.round((new Date(e.Start.slice(0, 10)) - new Date("2026-11-07")) / 864e5 / 7);
+      if (wk % 2 === 0) continue;
+    }
     events.push(e);
   }
 }
