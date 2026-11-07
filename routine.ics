@@ -32,34 +32,6 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:learn-article-business@spbu-25b05
-DTSTAMP:20261105T173000Z
-DTSTART;TZID=Europe/Moscow:20261109T210000
-DTEND;TZID=Europe/Moscow:20261109T212000
-SUMMARY:📖 Статья: как репетитору вырасти в предпринимателя
-URL:https://repetit.ru/blog/articles/kak-repetitoru-vyrasti-v-predprinimatelya%C2%A0/
-DESCRIPTION:https://repetit.ru/blog/articles/kak-repetitoru-vyrasti-v-predprinimatelya%C2%A0/\nПуть: цена → группы → свои курсы.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:📖 Статья: как репетитору вырасти в предпринимателя
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:learn-article-price@spbu-25b05
-DTSTAMP:20261105T173000Z
-DTSTART;TZID=Europe/Moscow:20261113T210000
-DTEND;TZID=Europe/Moscow:20261113T212000
-SUMMARY:📖 Статья: как репетитору поднять цену
-URL:https://t-j.ru/career-question-kak-repetitoru-podniat-tsenu/
-DESCRIPTION:https://t-j.ru/career-question-kak-repetitoru-podniat-tsenu/\nКогда и как повышать цену.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:📖 Статья: как репетитору поднять цену
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:wk-WE-1615@spbu-25b05
 DTSTAMP:20261105T175000Z
 DTSTART;TZID=Europe/Moscow:20261111T161500
@@ -70,19 +42,6 @@ DESCRIPTION:Горбуша\, треска\, картофель в аэрогри
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🍱 Заготовка еды (короткая)
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:wk-SA-0800@spbu-25b05
-DTSTAMP:20261105T175000Z
-DTSTART;TZID=Europe/Moscow:20261107T080000
-DTEND;TZID=Europe/Moscow:20261107T084500
-RRULE:FREQ=WEEKLY;BYDAY=SA
-SUMMARY:📖 Полезная статья или ролик
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:📖 Полезная статья или ролик
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
