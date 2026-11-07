@@ -355,8 +355,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yt3-20261109-0745@spbu-25b05
 DTSTAMP:20261105T181500Z
-DTSTART;TZID=Europe/Moscow:20261109T074500
-DTEND;TZID=Europe/Moscow:20261109T091000
+DTSTART;TZID=Europe/Moscow:20261107T132500
+DTEND;TZID=Europe/Moscow:20261107T145000
 SUMMARY:▶️ Как самозанятому принимать оплату онлайн (40 мин)
 URL:https://www.youtube.com/watch?v=KyOnOpl5yUM
 DESCRIPTION:https://www.youtube.com/watch?v=KyOnOpl5yUM
@@ -885,8 +885,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yt4-2Y_cB4nmX-Q@spbu-25b05
 DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261109T072000
-DTEND;TZID=Europe/Moscow:20261109T074500
+DTSTART;TZID=Europe/Moscow:20261107T130000
+DTEND;TZID=Europe/Moscow:20261107T132500
 SUMMARY:▶️ 5 секретов продвижения ВКонтакте (12 мин)
 URL:https://www.youtube.com/watch?v=2Y_cB4nmX-Q
 DESCRIPTION:https://www.youtube.com/watch?v=2Y_cB4nmX-Q
@@ -899,8 +899,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yt4-ZayAoyJ7VYI@spbu-25b05
 DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261109T091000
-DTEND;TZID=Europe/Moscow:20261109T094000
+DTSTART;TZID=Europe/Moscow:20261107T145000
+DTEND;TZID=Europe/Moscow:20261107T152000
 SUMMARY:▶️ Вся правда о продвижении в ВК (13 мин)
 URL:https://www.youtube.com/watch?v=ZayAoyJ7VYI
 DESCRIPTION:https://www.youtube.com/watch?v=ZayAoyJ7VYI
@@ -913,8 +913,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yt4-JzePaLZ1BoE@spbu-25b05
 DTSTAMP:20261106T050000Z
-DTSTART;TZID=Europe/Moscow:20261109T094000
-DTEND;TZID=Europe/Moscow:20261109T100500
+DTSTART;TZID=Europe/Moscow:20261107T152000
+DTEND;TZID=Europe/Moscow:20261107T154500
 SUMMARY:▶️ Как правильно настроить продвижение на Авито (12 мин)
 URL:https://www.youtube.com/watch?v=JzePaLZ1BoE
 DESCRIPTION:https://www.youtube.com/watch?v=JzePaLZ1BoE
