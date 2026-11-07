@@ -55,7 +55,7 @@ const header = lines.slice(0, 18);
 // --- Зал: 4 тренировки по 2 часа; если накладывается на пару — пропускаем ---
 const GYM = { 2: ["14:00", "Зал — верх"], 3: ["14:00", "Зал — низ"], 6: ["09:00", "Зал — верх"], 0: ["12:00", "Зал — низ"] };
 const GYM_SKIP = ["2026-11-07"];
-const GYM_EXTRA = [["2026-11-09", "07:30", "Зал — верх (перенос с субботы)"], ["2026-11-13", "15:45", "Зал — низ (перенос со среды)"], ["2026-12-01", "09:00", "Зал — верх (утром, до пар)"], ["2026-11-28", "08:30", "Зал — верх (раньше: пары с 11:30)"], ["2026-12-12", "08:30", "Зал — верх (раньше: пары с 11:30)"]];
+const GYM_EXTRA = [["2026-11-13", "15:45", ""], ["2026-12-01", "09:00", " (утром, до пар)"], ["2026-11-28", "08:30", " (раньше: пары с 11:30)"], ["2026-12-12", "08:30", " (раньше: пары с 11:30)"]];
 const ROAD_BEFORE = 50, ROAD_AFTER = 40; // минут на дорогу до зала и от зала до учёбы
 const busy = events.filter(e => !e.IsCancelled && !/пересдача|показ работ/i.test(e.Subject)).map(e => [new Date(e.Start), new Date(e.End)]);
 const WORKOUTS = {
@@ -77,10 +77,9 @@ const kg = (n, week, deload) => {
   }
   return "";
 };
-const plan = (date, title) => {
-  const d = new Date(`${date}T12:00:00`), wd = d.getDay(), up = /верх/i.test(title);
-  const key = up ? (wd === 6 || /суббот/.test(title) ? "Верх Б" : "Верх А") : (wd === 0 ? "Низ Б" : "Низ А");
-  const week = Math.max(1, Math.floor((d - new Date("2026-11-09T00:00:00")) / 864e5 / 7) + 1);
+const plan = (date, key) => {
+  const d = new Date(`${date}T12:00:00`);
+  const week = Math.max(1, Math.floor((d - new Date("2026-11-08T00:00:00")) / 864e5 / 7) + 1);
   const deload = week > 4 && week % 8 === 1;
   const [sets, phase] = deload ? [2, "Неделя " + week + ": РАЗГРУЗКА — 2 подхода, вес −30–40%, 4 повтора в запасе. Дальше продолжаешь с прежних весов"]
     : week <= 2 ? [2, "Неделя " + week + ": 2 подхода, вес 50–60% от прежнего, оставляй 3–4 повтора в запасе"]
@@ -91,18 +90,25 @@ const plan = (date, title) => {
     "Отдых: 2–3 мин в базовых, 1–1,5 мин в остальных. Не успеваешь — убирай последнее упражнение. Острая боль — сразу стоп.",
     "В конце: записать веса и повторы в дневник тренировок.", "После зала: протеин — 30 г порошка на 250–300 мл воды или молока."].join("\n");
 };
-const gymEvent = (date, time, title) => {
+// Тренировки чередуются строго: верх, низ, верх, низ… начиная с 08.11 (Верх Б, Низ Б, Верх А, Низ А по кругу)
+const slots = new Map();
+const addSlot = (date, time, note) => {
   const s = new Date(`${date}T${time}:00`), en = new Date(s.getTime() + 2 * 3600e3);
   if (busy.some(([a, b]) => a < new Date(en.getTime() + ROAD_AFTER * 60e3) && b > new Date(s.getTime() - ROAD_BEFORE * 60e3))) return;
+  slots.set(date, [s, en, note]);
+};
+for (let d = new Date(Math.max(monday, new Date("2026-11-08"))); d < end; d.setDate(d.getDate() + 1)) {
+  const g = GYM[d.getDay()]; if (g && !GYM_SKIP.includes(iso(d))) addSlot(iso(d), g[0], "");
+}
+for (const [date, time, note] of GYM_EXTRA) addSlot(date, time, note);
+const CYCLE = ["Верх Б", "Низ Б", "Верх А", "Низ А"];
+[...slots.entries()].sort((a, b) => a[1][0] - b[1][0]).forEach(([date, [s, en, note]], i) => {
+  const key = CYCLE[i % 4], title = `Зал — ${key.split(" ")[0].toLowerCase()}${note}`;
   const f = x => `${iso(x).replace(/-/g, "")}T${pad(x.getHours())}${pad(x.getMinutes())}00`;
   lines.push("BEGIN:VEVENT", `UID:gym-${date}@spbu-25b05`, `DTSTAMP:${stamp}`,
     `DTSTART;TZID=Europe/Moscow:${f(s)}`, `DTEND;TZID=Europe/Moscow:${f(en)}`,
-    fold(`SUMMARY:🏋️ ${esc(title)}`), fold(`DESCRIPTION:${esc(plan(date, title))}`), "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Зал через час", "TRIGGER:-PT1H", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок", "TRIGGER;RELATED=END:-PT5M", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🥤 Выпей протеин", "TRIGGER;RELATED=END:PT0M", "END:VALARM", "END:VEVENT");
-};
-for (let d = new Date(Math.max(monday, new Date("2026-11-06"))); d < end; d.setDate(d.getDate() + 1)) {
-  const g = GYM[d.getDay()]; if (g && !GYM_SKIP.includes(iso(d))) gymEvent(iso(d), g[0], g[1]);
-}
-for (const [date, time, title] of GYM_EXTRA) gymEvent(date, time, title);
+    fold(`SUMMARY:🏋️ ${esc(title)}`), fold(`DESCRIPTION:${esc(plan(date, key))}`), "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Зал через час", "TRIGGER:-PT1H", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок", "TRIGGER;RELATED=END:-PT5M", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🥤 Выпей протеин", "TRIGGER;RELATED=END:PT0M", "END:VALARM", "END:VEVENT");
+});
 
 const gymLines = lines.splice(studyCount);
 lines.push("END:VCALENDAR");
