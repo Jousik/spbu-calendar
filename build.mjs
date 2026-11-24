@@ -140,17 +140,7 @@ let oldI = 0, ppI = 0;
     fold(`SUMMARY:🏋️ ${esc(title)}`), fold(`DESCRIPTION:${esc(plan(date, key))}`), "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Зал через час", "TRIGGER:-PT1H", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок", "TRIGGER;RELATED=END:-PT5M", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🥤 Выпей протеин", "TRIGGER;RELATED=END:PT0M", "END:VALARM", "END:VEVENT");
 });
 
-const generatedGymLines = lines.splice(studyCount);
-const gymOverrideFrom = "20261125", gymOverrideThrough = "20261223";
-const gymEventBlocks = text => text.split(/\r?\n/).join("\n").match(/^BEGIN:VEVENT\n[\s\S]*?^END:VEVENT$/gm) || [];
-const gymEventDate = text => text.match(/^DTSTART(?:;[^:]+)?:(\d{8})T/m)?.[1];
-const gymOverrides = gymEventBlocks(readFileSync(new URL("./gym-preparation.ics", import.meta.url), "utf8"));
-if (!gymOverrides.length || gymOverrides.some(event => !gymEventDate(event))) throw new Error("Invalid gym overrides");
-const inGymOverride = date => date && date >= gymOverrideFrom && date <= gymOverrideThrough;
-const gymLines = [...gymEventBlocks(generatedGymLines.join("\r\n")).filter(event => !inGymOverride(gymEventDate(event))),
-  ...gymOverrides.filter(event => inGymOverride(gymEventDate(event)))]
-  .sort((a, b) => gymEventDate(a).localeCompare(gymEventDate(b)))
-  .flatMap(event => event.split("\n"));
+const gymLines = lines.splice(studyCount);
 lines.push("END:VCALENDAR");
 writeFileSync("spbu.ics", lines.join("\r\n") + "\r\n");
 const gymHeader = header.map(l => l.startsWith("X-WR-CALNAME") ? "X-WR-CALNAME:Зал" : l);
@@ -179,3 +169,27 @@ try {
   writeFileSync("routine.ics", r);
   console.log(`Прогулки: ${walks.length / 14} дней`);
 } catch (e) { console.log("Погода недоступна, прогулки не обновлены:", e.message); }
+
+// --- Уроки из журнала (живой ICS site-api) → work.ics ---
+try {
+  const token = (process.env.JOURNAL_CALENDAR_TOKEN || "").trim();
+  const feed = (process.env.JOURNAL_CALENDAR_URL || "").trim()
+    || (token ? `https://d5datgl25q8gj36lgph9.zj2i1qoy.apigw.yandexcloud.net/site/calendar.ics?token=${encodeURIComponent(token)}` : "");
+  if (!feed) {
+    console.log("Уроки: JOURNAL_CALENDAR_TOKEN не задан, work.ics не трогаю");
+  } else {
+    const res = await fetch(feed, { headers: { Accept: "text/calendar" } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    let ics = await res.text();
+    if (!/BEGIN:VCALENDAR/i.test(ics)) throw new Error("ответ не ICS");
+    if (/X-WR-CALNAME:/i.test(ics)) ics = ics.replace(/X-WR-CALNAME:.*/i, "X-WR-CALNAME:Уроки");
+    else ics = ics.replace(/BEGIN:VCALENDAR\r?\n/i, "BEGIN:VCALENDAR\r\nX-WR-CALNAME:Уроки\r\n");
+    if (!/REFRESH-INTERVAL/i.test(ics)) {
+      ics = ics.replace(/X-WR-CALNAME:Уроки/, "X-WR-CALNAME:Уроки\r\nREFRESH-INTERVAL;VALUE=DURATION:PT1H\r\nX-PUBLISHED-TTL:PT1H");
+    }
+    if (!ics.endsWith("\n")) ics += "\r\n";
+    writeFileSync("work.ics", ics.replace(/\r?\n/g, "\r\n"));
+    const n = (ics.match(/BEGIN:VEVENT/g) || []).length;
+    console.log(`Уроки: ${n} занятий → work.ics`);
+  }
+} catch (e) { console.log("Уроки не обновлены:", e.message); }
