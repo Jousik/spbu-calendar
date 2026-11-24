@@ -140,7 +140,17 @@ let oldI = 0, ppI = 0;
     fold(`SUMMARY:🏋️ ${esc(title)}`), fold(`DESCRIPTION:${esc(plan(date, key))}`), "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Зал через час", "TRIGGER:-PT1H", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок", "TRIGGER;RELATED=END:-PT5M", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🥤 Выпей протеин", "TRIGGER;RELATED=END:PT0M", "END:VALARM", "END:VEVENT");
 });
 
-const gymLines = lines.splice(studyCount);
+const generatedGymLines = lines.splice(studyCount);
+const gymOverrideFrom = "20261125", gymOverrideThrough = "20261223";
+const gymEventBlocks = text => text.split(/\r?\n/).join("\n").match(/^BEGIN:VEVENT\n[\s\S]*?^END:VEVENT$/gm) || [];
+const gymEventDate = text => text.match(/^DTSTART(?:;[^:]+)?:(\d{8})T/m)?.[1];
+const gymOverrides = gymEventBlocks(readFileSync(new URL("./gym-preparation.ics", import.meta.url), "utf8"));
+if (!gymOverrides.length || gymOverrides.some(event => !gymEventDate(event))) throw new Error("Invalid gym overrides");
+const inGymOverride = date => date && date >= gymOverrideFrom && date <= gymOverrideThrough;
+const gymLines = [...gymEventBlocks(generatedGymLines.join("\r\n")).filter(event => !inGymOverride(gymEventDate(event))),
+  ...gymOverrides.filter(event => inGymOverride(gymEventDate(event)))]
+  .sort((a, b) => gymEventDate(a).localeCompare(gymEventDate(b)))
+  .flatMap(event => event.split("\n"));
 lines.push("END:VCALENDAR");
 writeFileSync("spbu.ics", lines.join("\r\n") + "\r\n");
 const gymHeader = header.map(l => l.startsWith("X-WR-CALNAME") ? "X-WR-CALNAME:Зал" : l);
