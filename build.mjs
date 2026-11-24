@@ -140,45 +140,14 @@ let oldI = 0, ppI = 0;
     fold(`SUMMARY:🏋️ ${esc(title)}`), fold(`DESCRIPTION:${esc(plan(date, key))}`), "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Зал через час", "TRIGGER:-PT1H", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🏋️ Запиши веса и повторы в дневник тренировок", "TRIGGER;RELATED=END:-PT5M", "END:VALARM", "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:🥤 Выпей протеин", "TRIGGER;RELATED=END:PT0M", "END:VALARM", "END:VEVENT");
 });
 
-const generatedGymLines = lines.splice(studyCount);
-const gymOverrideFrom = "20261125", gymOverrideThrough = "20261223";
-const gymEventBlocks = text => text.split(/\r?\n/).join("\n").match(/^BEGIN:VEVENT\n[\s\S]*?^END:VEVENT$/gm) || [];
-const gymEventDate = text => text.match(/^DTSTART(?:;[^:]+)?:(\d{8})T/m)?.[1];
-const gymOverrides = gymEventBlocks(readFileSync(new URL("./gym-preparation.ics", import.meta.url), "utf8"));
-if (!gymOverrides.length || gymOverrides.some(event => !gymEventDate(event))) throw new Error("Invalid gym overrides");
-const inGymOverride = date => date && date >= gymOverrideFrom && date <= gymOverrideThrough;
-const gymLines = [...gymEventBlocks(generatedGymLines.join("\r\n")).filter(event => !inGymOverride(gymEventDate(event))),
-  ...gymOverrides.filter(event => inGymOverride(gymEventDate(event)))]
-  .sort((a, b) => gymEventDate(a).localeCompare(gymEventDate(b)))
-  .flatMap(event => event.split("\n"));
+const gymLines = lines.splice(studyCount);
 lines.push("END:VCALENDAR");
 writeFileSync("spbu.ics", lines.join("\r\n") + "\r\n");
 const gymHeader = header.map(l => l.startsWith("X-WR-CALNAME") ? "X-WR-CALNAME:Зал" : l);
 writeFileSync("gym.ics", [...gymHeader, ...gymLines, "END:VCALENDAR"].join("\r\n") + "\r\n");
 console.log(`OK: ${seen.size} занятий`);
 
-// --- Вечерняя прогулка 22:00–22:20 только в дни без снега и сильных осадков (прогноз Open-Meteo, СПб) ---
-try {
-  const url = "https://api.open-meteo.com/v1/forecast?latitude=59.94&longitude=30.31&daily=precipitation_sum,snowfall_sum,temperature_2m_min&timezone=Europe%2FMoscow&forecast_days=16";
-  const w = process.env.WEATHER_JSON ? JSON.parse(process.env.WEATHER_JSON) : await (await fetch(url)).json();
-  const { time, precipitation_sum: pr, snowfall_sum: sn, temperature_2m_min: tmin } = w.daily;
-  const walks = [];
-  time.forEach((d, i) => {
-    const ok = sn[i] === 0 && pr[i] < 2 && tmin[i] > -3; // без снега, без дождя/слякоти, без гололёда
-    if (!ok) return;
-    const ymd = d.replace(/-/g, "");
-    walks.push("BEGIN:VEVENT", `UID:walk-${ymd}@spbu-25b05`, `DTSTAMP:${stamp}`,
-      `DTSTART;TZID=Europe/Moscow:${ymd}T220000`, `DTEND;TZID=Europe/Moscow:${ymd}T222000`,
-      "SUMMARY:🚶 Вечерняя прогулка 20 минут", "TRANSP:TRANSPARENT",
-      fold(`DESCRIPTION:По прогнозу сухо: осадки ${pr[i]} мм\\, минимум ${tmin[i]} °C.`),
-      "BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Прогулка 20 минут", "TRIGGER:PT0M", "END:VALARM", "END:VEVENT");
-  });
-  let r = readFileSync("routine.ics", "utf8");
-  r = r.replace(/BEGIN:VEVENT\r\nUID:walk-[\s\S]*?END:VEVENT\r\n/g, "");
-  r = r.replace("END:VCALENDAR\r\n", walks.join("\r\n") + (walks.length ? "\r\n" : "") + "END:VCALENDAR\r\n");
-  writeFileSync("routine.ics", r);
-  console.log(`Прогулки: ${walks.length / 14} дней`);
-} catch (e) { console.log("Погода недоступна, прогулки не обновлены:", e.message); }
+// Прогулки/режим-привычки отключены по запросу Артёма — routine.ics не трогаем.
 
 // --- Уроки из журнала (живой ICS site-api) → work.ics ---
 try {
